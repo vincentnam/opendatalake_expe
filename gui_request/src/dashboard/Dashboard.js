@@ -7,9 +7,9 @@ import MuiDrawer from '@mui/material/Drawer';
 import Box from '@mui/material/Box';
 import MuiAppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import List from '@mui/material/List';
+
 import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
+
 import IconButton from '@mui/material/IconButton';
 import Badge from '@mui/material/Badge';
 import Container from '@mui/material/Container';
@@ -17,47 +17,30 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Link from '@mui/material/Link';
 import MenuIcon from '@mui/icons-material/Menu';
-import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+
 import NotificationsIcon from '@mui/icons-material/Notifications';
-// import { mainListItems, secondaryListItems } from './listItems';
+
 import {Autocomplete, TextField} from "@mui/material";
-import moment from 'moment';
+
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import Button from '@mui/material/Button';
-import {useCallback} from "react";
+
 import Chip from '@mui/material/Chip';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
+
 import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-// import * as React from 'react';
-// import Link from '@mui/material/Link';
+
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Title from './Title';
-import Map from 'react-map-gl';
-// Generate Order Data
 import Checkbox from '@mui/material/Checkbox';
 import FormGroup from '@mui/material/FormGroup';
 
-function Copyright(props) {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+
 
 const drawerWidth = 240;
 
@@ -79,31 +62,6 @@ const AppBar = styled(MuiAppBar, {
   }),
 }));
 
-const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
-  ({ theme, open }) => ({
-    '& .MuiDrawer-paper': {
-      position: 'relative',
-      whiteSpace: 'nowrap',
-      width: drawerWidth,
-      transition: theme.transitions.create('width', {
-        easing: theme.transitions.easing.sharp,
-        duration: theme.transitions.duration.enteringScreen,
-      }),
-      boxSizing: 'border-box',
-      ...(!open && {
-        overflowX: 'hidden',
-        transition: theme.transitions.create('width', {
-          easing: theme.transitions.easing.sharp,
-          duration: theme.transitions.duration.leavingScreen,
-        }),
-        width: theme.spacing(7),
-        [theme.breakpoints.up('sm')]: {
-          width: theme.spacing(9),
-        },
-      }),
-    },
-  }),
-);
 
 const mdTheme = createTheme();
 function createData(id,platform, location, keyword, author,country ) {
@@ -150,14 +108,10 @@ function Orders() {
               <TableCell>{row.authors}</TableCell>
               <TableCell align="right">{row.country}</TableCell>
             </TableRow>
-
-
           ))}
         </TableBody>
       </Table>
-      {/*<Link color="primary" href="#" onClick={preventDefault} sx={{ mt: 3 }}>*/}
-      {/*  See more orders*/}
-      {/*</Link>*/}
+
     </React.Fragment>
   );
 }
@@ -173,30 +127,25 @@ function DashboardContent() {
   const [keywords, setKeywords] = React.useState([]);
   const [isContains, setIsContains] = React.useState(false);
   const [isGeo, setisGeo] = React.useState(false);
-  const [beginDate, setBegindate] = React.useState(null);
-  const [endDate, setEnddate] = React.useState(null);
+  const [beginCitationDate, setBeginCitationdate] = React.useState(null);
+  const [endCitationDate, setEndCitationdate] = React.useState(null);
+  const [beginReleaseDate, setBeginReleaseDate] = React.useState(null);
+  const [endReleaseDate, setEndReleaseDate] = React.useState(null);
   const [data, setData] = React.useState(null)
   const [LongTopleftMarker,setLongTopleftMarker] = React.useState(0)
   const [LongBottomrightMarker,setLongBottomrightMarker] = React.useState(0)
   const [LatTopleftMarker,setLatTopleftMarker] = React.useState(0)
   const [LatBottomrightMarker,setLatBottomrightMarker] = React.useState(0)
-
-
+  const [beginTemporalExtent, setBeginTemporalExtent] = React.useState(null);
+  const [endTemporalExtent, setEndTemporalExtent] = React.useState(null);
+  const [publicationName, setPublicationName] = React.useState([])
 
 
   const onChangePlatform = (event, value) => {
-      // console.log(value)
-      // console.log(value.title)
-      // console.log(event)
-      // console.log("TA MERe")
-      // console.log(platform)
-      // value.map((r)=>{
-      //     console.log(r);
-      // return r.title})
+
     setPlatform(value.map((r)=>{
           console.log(r);
       return r.title}))
-    // platform.push(value.title)
   }
   const toggleDrawer = () => {
     setOpen(!open);
@@ -206,76 +155,118 @@ function DashboardContent() {
     { title: 'ODATIS', year: 1972 },
     { title: 'AERIS', year: 1972 },
   ];
-  // let formattedDate = moment(beginDate).format('DD/MM/YYYY')
-  // console.log(moment(beginDate.toDate()).format('DD/MM/YYYY'))
-  // console.log(moment(endDate.toDate()).format('DD/MM/YYYY'))
-  // console.log("prout")
-  // console.log()
-  // console.log(platform)
+
 
   const handleLatTopleftMarker= (event)=>{
-    // console.log(date)
+
     setLatTopleftMarker(event.target.value)
   }
   const handleLongTopleftMarker= (event)=>{
-    // console.log(date)
+
     setLongTopleftMarker(event.target.value)
   }
   const handleLatBottomrightMarker= (event)=>{
-    // console.log(date)
+
     setLatBottomrightMarker(event.target.value)
   }
   const handleLongBottomrightMarker= (event)=>{
-    // console.log(date)
+
     setLongBottomrightMarker(event.target.value)
   }
-  const handleEndDate= (event)=>{
-    // console.log(date)
-    setEnddate(event.$y)
+  const handleEndCitationDate= (event)=>{
+    try{
+    setEndCitationdate(event.$y)
+    }
+    catch{
+        setEndCitationdate(null)
+    }
+
   }
-  const handleBeginDate= (event)=>{
-    // console.log()
-    //   console.log(date)
-    setBegindate(event.$y)
+  const handleBeginCitationDate= (event)=>{
+    try{
+    setBeginCitationdate(event.$y)
+    }
+    catch {
+        setBeginCitationdate(null)
+    }
+
   }
+  const handleEndReleaseDate= (event)=>{
+
+    try {
+        setEndReleaseDate(event.toISOString())
+    }
+    catch {
+        setEndReleaseDate(null)
+    }
+  }
+  const handleBeginTemporalExtent= (event)=>{
+    try{
+    setBeginTemporalExtent(event.toISOString())
+    }
+    catch {
+        setBeginTemporalExtent(null)
+    }
+
+  }
+  const handleEndTemporalExtent= (event)=>{
+    try {
+        setEndTemporalExtent(event.toISOString())
+    }
+    catch {
+        setEndTemporalExtent(null)
+    }
+  }
+  const handleBeginReleaseDate= (event)=>{
+    try {
+        setBeginReleaseDate(event.toISOString())
+    }
+    catch{
+        setBeginReleaseDate(null)
+    }
+}
   function handleisGeo(event, value){
-      console.log("tamoresqd")
-      console.log(event.target.checked)
-      console.log(value)
+
       setisGeo(value);
 
   }
   function handleisContains(event){
-      console.log(event)
-
       setIsContains(event.target.checked);
   }
 
-  const onChangebeginDate= (event, date)=>{
-    setBegindate(date)
+  const onChangebeginCitationDate= (event, date)=>{
+    setBeginCitationdate(date)
   }
   // console.log(platform)
    function callAPI() {
-      console.log(isContains)
        let head = {}
        head["platform"]=platform.map((r)=>{return r.title})
         head["journals"]=journal
        head["keywords"]=keywords
         head["isContains"]=isContains.toString()
-       console.log()
-       if (beginDate !== null){
-           // head["beginDate"]=moment(beginDate.toDate()).format('YYYY/MM/DD')
-            head["beginDate"]=beginDate
+       head["publicationName"]=publicationName
+       if (beginCitationDate !== null){
+            head["beginCitationDate"]=beginCitationDate
        }
-       if (endDate !== null){
-           // head["beginDate"]=moment(beginDate.toDate()).format('YYYY/MM/DD')
-            head["endDate"]=endDate
+       if (endCitationDate !== null){
+            head["endCitationDate"]=endCitationDate
+       }
+       if (beginReleaseDate !== null){
+            head["beginReleaseDate"]=beginReleaseDate
+       }
+       if (endReleaseDate !== null){
+            head["endReleaseDate"]=endReleaseDate
+       }
+       if (beginTemporalExtent !== null){
+            head["beginTemporalExtent"]=beginTemporalExtent
+       }
+       if (endTemporalExtent !== null){
+            head["endTemporalExtent"]=endTemporalExtent
        }
        if (journal.length > 0 ){
            head["journals"]=journal
        }
        if (platform.length>0){
-           console.log(platform)
            head["platform"]=platform
            head["isContains"]=isContains.toString()
        }
@@ -287,25 +278,17 @@ function DashboardContent() {
             head["Southlat"]=LatBottomrightMarker
             head["Eastlong"]=LongBottomrightMarker
         }
-      // axios.get("http://localhost:5000/get_metadata",{headers:{"beginDate":moment(beginDate.toDate()).format('YYYY/MM/DD'),
-      //     "endDate":moment(endDate.toDate()).format('YYYY/MM/DD'),"platform":platform.map((r)=>{return r.title}), "journals":journal, "isContains":isContains.toString(),
-      //         "LatTopleft":LatTopleftMarker,"LongTopleft":LongTopleftMarker, "LatBottomright":LatBottomrightMarker, "LongBottomright":LongBottomrightMarker }}).then(res => {
-      axios.get("http://localhost:5000/get_metadata",{headers:head}).then(res => {
+         axios.get("http://localhost:5000/get_metadata",{headers:head}).then(res => {
          // Handle Your response here.
          // Likely you may want to set some state
          setData(res.data);
-         console.log(data)
           if (res.data!= null){
           rows=res.data.map(r=>{
             return createData(r.id,r.platform,r.location, r.keyword, r.author, r.country)
         })
           }
-          console.log(rows)
-
       });
    };
-    console.log(beginDate)
-    console.log(endDate)
   return (
     <ThemeProvider theme={mdTheme}>
       <Box sx={{ display: 'flex' }}>
@@ -370,26 +353,66 @@ function DashboardContent() {
                     height: 240,
                   }}
                 >
+                    <h3>Associated publication : publication year</h3>
                   <LocalizationProvider dateAdapter={AdapterDayjs}>
 
-                    <DatePicker label="Begin" view={"year"} views={["year"]} onChange={handleBeginDate}/>
+                    <DatePicker label="Begin" view={"year"} views={["year"]} onChange={handleBeginCitationDate}/>
 
                   </LocalizationProvider>
                   <LocalizationProvider dateAdapter={AdapterDayjs}>
 
 
-                    <DatePicker label="End" view={"year"} views={["year"]} onChange={handleEndDate}/>
+                    <DatePicker label="End" view={"year"} views={["year"]} onChange={handleEndCitationDate}/>
                   </LocalizationProvider>
 
+                </Paper>
+              </Grid>
 
-                  {/*<TextField*/}
-                  {/*    required*/}
-                  {/*    id="outlined-required"*/}
-                  {/*    label="Required"*/}
-                  {/*    defaultValue="Hello World"*/}
-                  {/*    value={value_text}*/}
-                  {/*    onChange={onChangeText}*/}
-                  {/*/>*/}
+                <Grid item xs={12} md={8} lg={9}>
+                <Paper
+                  sx={{
+                    p: 2,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    height: 240,
+                  }}
+                >
+                    <h3>Dataset : release date</h3>
+                  <LocalizationProvider dateAdapter={AdapterDayjs}>
+
+                    <DatePicker label="Begin"  onChange={handleBeginReleaseDate}/>
+
+                  </LocalizationProvider>
+                  <LocalizationProvider dateAdapter={AdapterDayjs}>
+
+
+                    <DatePicker label="End" onChange={handleEndReleaseDate}/>
+                  </LocalizationProvider>
+
+                </Paper>
+              </Grid>
+
+                <Grid item xs={12} md={8} lg={9}>
+                <Paper
+                  sx={{
+                    p: 2,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    height: 240,
+                  }}
+                >
+                    <h3>Dataset (content) : temporal extent (period)</h3>
+                  <LocalizationProvider dateAdapter={AdapterDayjs}>
+
+                    <DatePicker label="Begin" onChange={handleBeginTemporalExtent}/>
+
+                  </LocalizationProvider>
+                  <LocalizationProvider dateAdapter={AdapterDayjs}>
+
+
+                    <DatePicker label="End"  onChange={handleEndTemporalExtent}/>
+                  </LocalizationProvider>
+
                 </Paper>
               </Grid>
               {/* Recent Deposits */}
@@ -415,22 +438,6 @@ function DashboardContent() {
                       sx={{ width: '100%' }}
                       onChange={onChangePlatform}
                   />
-                  {/*  <Autocomplete*/}
-                  {/*    multiple*/}
-                  {/*    limitTags={2}*/}
-                  {/*    id="multiple-limit-tags"*/}
-                  {/*      */}
-                  {/*    freeSolo={true}*/}
-                  {/*    getOptionLabel={(option) => option.title}*/}
-                  {/*    defaultValue={[]}*/}
-
-                  {/*    renderInput={(params) => (*/}
-                  {/*        <TextField {...params} label="Platform" placeholder="Favorites" />*/}
-                  {/*    )}*/}
-                  {/*    sx={{ width: '100%' }}*/}
-                  {/*    onChange={onChangePlatform}*/}
-                  {/*/>*/}
-
                 </Paper>
               </Grid>
 
@@ -442,7 +449,7 @@ function DashboardContent() {
                     flexDirection: 'column',
                     height: 240,
                   }}
-                >
+                ><h3>Associated publication : journal name</h3>
                 <Autocomplete
                         value={journal}
                         onChange={(event, newValue) => {
@@ -465,27 +472,51 @@ function DashboardContent() {
                           <TextField
                             {...params}
                             variant="filled"
-                            label="Journal"
+                            label="Journal title"
                             placeholder="Search"
                           />
                         )}
                       />
 
-                    {/*<FormGroup>*/}
-                      {/*<FormControlLabel  control={<Checkbox  onChange={handleisContains} />} label="Contains" />*/}
-                     {/*</FormGroup>*/}
-                    {/*<FormControl>*/}
-                    {/*  <FormLabel id="demo-radio-buttons-group-label">Operation</FormLabel>*/}
-                    {/*  <RadioGroup*/}
-                    {/*    aria-labelledby="demo-radio-buttons-group-label"*/}
-                    {/*    defaultValue="Contains"*/}
-                    {/*    name="radio-buttons-group"*/}
-                    {/*    onChange={handleisContains}*/}
-                    {/*  >*/}
-                    {/*    <FormControlLabel value={isContains} control={<Radio />} label="Contains" />*/}
-                    {/*    <FormControlLabel value={!isContains}  control={<Radio />} label="Equals" />*/}
-                    {/*  </RadioGroup>*/}
-                    {/*</FormControl>*/}
+                    </Paper>
+
+              </Grid><Grid item xs={12} md={8} lg={3}>
+                <Paper
+                  sx={{
+                    p: 2,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    height: 240,
+                  }}
+                ><h3>Associated publication : publication title</h3>
+                <Autocomplete
+                        value={publicationName}
+                        onChange={(event, newValue) => {
+                          setPublicationName(newValue);
+                        }}
+                        multiple
+                        id="tags-filled"
+                        options={publicationName}
+                        freeSolo
+                        renderTags={(publicationName: string[], getTagProps) =>
+                          publicationName.map((option: string, index: number) => (
+                            <Chip
+                              variant="outlined"
+                              label={option}
+                              {...getTagProps({ index })}
+                            />
+                          ))
+                        }
+                        renderInput={(params) => (
+                          <TextField
+                            {...params}
+                            variant="filled"
+                            label="Publication title"
+                            placeholder="Search"
+                          />
+                        )}
+                      />
+
                     </Paper>
 
               </Grid>
@@ -497,7 +528,7 @@ function DashboardContent() {
                     flexDirection: 'column',
                     height: 240,
                   }}
-                >
+                ><h3>Content : keywords</h3>
                 <Autocomplete
                         value={keywords}
                         onChange={(event, newValue) => {
@@ -526,30 +557,16 @@ function DashboardContent() {
                         )}
                       />
 
-                    {/*<FormGroup>*/}
-                      {/*<FormControlLabel  control={<Checkbox  onChange={handleisContains} />} label="Contains" />*/}
-                     {/*</FormGroup>*/}
-                    {/*<FormControl>*/}
-                    {/*  <FormLabel id="demo-radio-buttons-group-label">Operation</FormLabel>*/}
-                    {/*  <RadioGroup*/}
-                    {/*    aria-labelledby="demo-radio-buttons-group-label"*/}
-                    {/*    defaultValue="Contains"*/}
-                    {/*    name="radio-buttons-group"*/}
-                    {/*    onChange={handleisContains}*/}
-                    {/*  >*/}
-                    {/*    <FormControlLabel value={isContains} control={<Radio />} label="Contains" />*/}
-                    {/*    <FormControlLabel value={!isContains}  control={<Radio />} label="Equals" />*/}
-                    {/*  </RadioGroup>*/}
-                    {/*</FormControl>*/}
                     </Paper>
 
               </Grid>
               {/* Recent Orders */}
               <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
+                    <h3>Content : Spatial extent</h3>
                       {/*<Button variant="contained" onClick={() => callAPI()}>Search</Button>*/}
                     <FormGroup>
-                      <FormControlLabel  control={<Checkbox  onChange={handleisGeo} />} label="Geographic request ?" />
+                      <FormControlLabel  control={<Checkbox  onChange={handleisGeo} />} label="Request on spatial extent" />
                      </FormGroup>
 
 
@@ -565,21 +582,7 @@ function DashboardContent() {
                       variant="standard"
                       value={LatTopleftMarker}
                       onChange={handleLatTopleftMarker}
-                    />
-                                     <TextField
-                      id="standard-number"
-                      label="West longitude"
-                      type="number"
-                      inputProps={{step:0.01 }}
-                      InputLabelProps={{
-                        shrink: true,
-
-                      }}
-                      variant="standard"
-                      value={LongTopleftMarker}
-                      onChange={handleLongTopleftMarker}
-                    />
-                                     <TextField
+                    /><TextField
                       id="standard-number"
                       label="South latitude"
                       type="number"
@@ -592,7 +595,7 @@ function DashboardContent() {
                       value={LatBottomrightMarker}
                       onChange={handleLatBottomrightMarker}
                     />
-                                     <TextField
+                    <TextField
                       id="standard-number"
                       label="East longitude"
                       type="number"
@@ -606,6 +609,21 @@ function DashboardContent() {
                       onChange={handleLongBottomrightMarker}
                     />
 
+
+
+                    <TextField
+                      id="standard-number"
+                      label="West longitude"
+                      type="number"
+                      inputProps={{step:0.01 }}
+                      InputLabelProps={{
+                        shrink: true,
+
+                      }}
+                      variant="standard"
+                      value={LongTopleftMarker}
+                      onChange={handleLongTopleftMarker}
+                    />
                 </Paper>
               </Grid>
 
@@ -625,8 +643,6 @@ function DashboardContent() {
 
             </Grid>
 
-
-            {/*<Copyright sx={{ pt: 4 }} />*/}
           </Container>
         </Box>
       </Box>
