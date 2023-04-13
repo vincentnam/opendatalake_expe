@@ -1,0 +1,442 @@
+{
+  "audit_author": [
+    {
+      "name": "Lovejoy, B.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Cascio, D.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Eisenberg, D.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 101.8,
+    "angle_gamma": 90.0,
+    "length_a": 53.2,
+    "length_b": 35.9,
+    "length_c": 91.0,
+    "zpdb": 4
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_astm": "JMOBAK",
+      "journal_id_csd": "0070",
+      "journal_id_issn": "0022-2836",
+      "journal_volume": "234",
+      "page_first": "640",
+      "page_last": "653",
+      "pdbx_database_id_doi": "10.1006/jmbi.1993.1617",
+      "pdbx_database_id_pub_med": 7504736,
+      "rcsb_authors": [
+        "Lovejoy, B.",
+        "Cascio, D.",
+        "Eisenberg, D."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Crystal structure of canine and bovine granulocyte-colony stimulating factor (G-CSF).",
+      "year": 1993
+    }
+  ],
+  "diffrn": [
+    {
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "1BGE"
+  },
+  "exptl": [
+    {
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 2.25,
+      "density_percent_sol": 45.38,
+      "id": "1"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1993-10-31T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "recvd_initial_deposition_date": "1993-04-27T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "babinet_b": 121.816,
+    "babinet_k": 0.196,
+    "dcc_r": 0.19,
+    "eds_r": 0.21,
+    "fo_fc_correlation": 0.949,
+    "pdb_r": 0.19,
+    "wilson_baniso": "[32.938,34.680,27.279,0.000,-0.502,0.000]",
+    "wilson_bestimate": 31.378,
+    "absolute_percentile_clashscore": 54.5,
+    "absolute_percentile_percent_rsrzoutliers": 93.6,
+    "absolute_percentile_percent_ramachandran_outliers": 24.9,
+    "absolute_percentile_percent_rotamer_outliers": 5.8,
+    "acentric_outliers": 0,
+    "angles_rmsz": 1.26,
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.8,
+    "bulk_solvent_b": 78.525,
+    "bulk_solvent_k": 0.313,
+    "ccp4version": "7.0.044 (Gargrove)",
+    "centric_outliers": 0.0,
+    "clashscore": 5.23,
+    "data_anisotropy": 0.234,
+    "data_completeness": 88.61,
+    "high_resol_relative_percentile_clashscore": 2.2,
+    "high_resol_relative_percentile_percent_rsrzoutliers": 2.2,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 2.2,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 2.2,
+    "low_resol_relative_percentile_clashscore": 2.2,
+    "low_resol_relative_percentile_percent_rsrzoutliers": 2.2,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 2.2,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 2.2,
+    "no_ligands_for_buster_report": "yes",
+    "no_ligands_for_mogul": "yes",
+    "num_hreduce": 2391.0,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_rsrzoutliers": 127900,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_clashscore": 5594,
+    "num_pdbids_relative_percentile_percent_rsrzoutliers": 4800,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 5503,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 5504,
+    "num_angles_rmsz": 3311,
+    "num_bonds_rmsz": 2437,
+    "num_free_reflections": 0,
+    "num_miller_indices": 15531,
+    "percent_rsrzoutliers": 0.31,
+    "percent_free_reflections": 0.0,
+    "percent_ramachandran_outliers": 0.65,
+    "percent_rotamer_outliers": 11.11,
+    "percentilebins": [
+      "all",
+      "2.2",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1",
+    "refmac_version": "5.8.0158",
+    "relative_percentile_clashscore": 63.4,
+    "relative_percentile_percent_rsrzoutliers": 93.1,
+    "relative_percentile_percent_ramachandran_outliers": 26.0,
+    "relative_percentile_percent_rotamer_outliers": 5.1,
+    "report_creation_date": "May 13, 2020 -- 04:44 am BST",
+    "trans_nsc": "The largest off-origin peak in the Patterson function is 9.04% of the height of the origin peak. No significant pseudotranslation is detected.",
+    "twin_l": 0.484,
+    "twin_l2": 0.32,
+    "xtriage_input_columns": "F_meas_au,F_meas_sigma_au",
+    "bfactor_type": "FULL",
+    "dccrefinement_program": "CNS",
+    "edsresolution": 2.2,
+    "edsresolution_low": 44.54,
+    "iover_sigma": "2.06(2.20A)",
+    "pdbdeposition_date": "1993-04-27T00:00:00+0000",
+    "pdbresolution": 2.2,
+    "pdbresolution_low": 7.0,
+    "pdbrevision_date": "2011-07-13T00:00:00+0000",
+    "pdbrevision_number": 3.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1993-04-27T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1993-10-31T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2011-07-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1",
+      "2"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "1BGE",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "1BGE",
+    "pubmed_id": 7504736
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 2,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2523,
+    "deposited_hydrogen_atom_count": 747,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 318,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 2,
+    "deposited_polymer_monomer_count": 350,
+    "deposited_solvent_atom_count": 133,
+    "deposited_unmodeled_polymer_monomer_count": 32,
+    "disulfide_bond_count": 4,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 37.74,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 18.87,
+    "polymer_molecular_weight_minimum": 18.87,
+    "polymer_monomer_count_maximum": 175,
+    "polymer_monomer_count_minimum": 175,
+    "resolution_combined": [
+      2.2
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "From refinement resolution cutoff",
+      "value": 2.2
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "J.Mol.Biol.",
+    "journal_id_astm": "JMOBAK",
+    "journal_id_csd": "0070",
+    "journal_id_issn": "0022-2836",
+    "journal_volume": "234",
+    "page_first": "640",
+    "page_last": "653",
+    "pdbx_database_id_doi": "10.1006/jmbi.1993.1617",
+    "pdbx_database_id_pub_med": 7504736,
+    "rcsb_authors": [
+      "Lovejoy, B.",
+      "Cascio, D.",
+      "Eisenberg, D."
+    ],
+    "rcsb_journal_abbrev": "J Mol Biol",
+    "title": "Crystal structure of canine and bovine granulocyte-colony stimulating factor (G-CSF).",
+    "year": 1993
+  },
+  "refine": [
+    {
+      "ls_rfactor_rwork": 0.193,
+      "ls_rfactor_obs": 0.193,
+      "ls_dres_high": 2.2,
+      "ls_dres_low": 7.0,
+      "ls_number_reflns_obs": 15402,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_sigma_f": 1.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.2,
+      "d_res_low": 7.0,
+      "number_atoms_solvent": 399,
+      "number_atoms_total": 3280,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2881,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 2.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "software": [
+    {
+      "classification": "model building",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "struct": {
+    "pdbx_descriptor": "GRANULOCYTE COLONY-STIMULATING FACTOR (FORM II RCG-CSFII)",
+    "title": "CRYSTAL STRUCTURE OF CANINE AND BOVINE GRANULOCYTE-COLONY STIMULATING FACTOR (G-CSF)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "CYTOKINE",
+    "text": "CYTOKINE"
+  },
+  "symmetry": {
+    "int_tables_number": 4,
+    "space_group_name_hm": "P 1 21 1"
+  },
+  "rcsb_id": "1BGE"
+}

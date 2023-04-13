@@ -1,0 +1,638 @@
+{
+  "audit_author": [
+    {
+      "name": "Done, S.H.",
+      "pdbx_ordinal": 1
+    }
+  ],
+  "cell": {
+    "angle_alpha": 100.2,
+    "angle_beta": 111.44,
+    "angle_gamma": 105.81,
+    "length_a": 52.12,
+    "length_b": 65.08,
+    "length_c": 76.3,
+    "zpdb": 1
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_astm": "JMOBAK",
+      "journal_id_csd": "0070",
+      "journal_id_issn": "0022-2836",
+      "journal_volume": "284",
+      "page_first": "463",
+      "page_last": "475",
+      "pdbx_database_id_doi": "10.1006/jmbi.1998.2180",
+      "pdbx_database_id_pub_med": 9813130,
+      "rcsb_authors": [
+        "Done, S.H.",
+        "Brannigan, J.A.",
+        "Moody, P.C.E.",
+        "Hubbard, R.E."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Ligand-induced conformational change in penicillin acylase.",
+      "year": 1998
+    },
+    {
+      "book_publisher": "York : University of York (Thesis)",
+      "country": "UK",
+      "id": "1",
+      "journal_abbrev": "Thesis",
+      "journal_id_csd": "2146",
+      "rcsb_authors": [
+        "Done, S.H."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Thesis",
+      "title": "Structural Studies of Penicillin Acylase",
+      "year": 1996
+    },
+    {
+      "country": "UK",
+      "id": "2",
+      "journal_abbrev": "Nature",
+      "journal_id_astm": "NATUAS",
+      "journal_id_csd": "0006",
+      "journal_id_issn": "0028-0836",
+      "journal_volume": "373",
+      "page_first": "264",
+      "rcsb_authors": [
+        "Duggleby, H.J.",
+        "Tolley, S.P.",
+        "Hill, C.P.",
+        "Dodson, E.J.",
+        "Dodson, G.",
+        "Moody, P.C."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Nature",
+      "title": "Penicillin Acylase Has a Single-Amino-Acid Catalytic Centre",
+      "year": 1995
+    },
+    {
+      "country": "UK",
+      "id": "3",
+      "journal_abbrev": "Protein Eng.",
+      "journal_id_astm": "PRENE9",
+      "journal_id_csd": "0859",
+      "journal_id_issn": "0269-2139",
+      "journal_volume": "3",
+      "page_first": "635",
+      "rcsb_authors": [
+        "Hunt, P.D.",
+        "Tolley, S.P.",
+        "Ward, R.J.",
+        "Hill, C.P.",
+        "Dodson, G.G."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Protein Eng",
+      "title": "Expression, Purification and Crystallization of Penicillin G Acylase from Escherichia Coli Atcc 11105",
+      "year": 1990
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 300.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1995-08-10T00:00:00+0000",
+      "type": "MARRESEARCH"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X31",
+      "pdbx_synchrotron_site": "EMBL/DESY, Hamburg",
+      "pdbx_wavelength": "0.98",
+      "source": "SYNCHROTRON",
+      "type": "EMBL/DESY, HAMBURG BEAMLINE X31"
+    }
+  ],
+  "entry": {
+    "id": "1AI5"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 3.06,
+      "density_percent_sol": 59.5,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "streak seeded",
+      "p_h": 7.2,
+      "pdbx_details": "CRYSTALLIZED FROM 10% PEG 8000, 50MM MOPS, PH 7.2, STREAK SEEDED. SOAKED IN 5MM M-NITROPHENYLACETIC ACID, streak seeded"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1997-11-12T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-03T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "recvd_initial_deposition_date": "1997-05-01T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "babinet_b": 110.631,
+    "babinet_k": 0.249,
+    "dcc_r": 0.14,
+    "eds_r": 0.14,
+    "fo_fc_correlation": 0.967,
+    "pdb_r": 0.15,
+    "wilson_baniso": "[23.021,20.403,21.792,-3.181,1.103,-3.154]",
+    "wilson_bestimate": 21.608,
+    "absolute_percentile_dccrfree": 84.5,
+    "absolute_percentile_clashscore": 31.3,
+    "absolute_percentile_percent_rsrzoutliers": 93.6,
+    "absolute_percentile_percent_ramachandran_outliers": 51.4,
+    "absolute_percentile_percent_rotamer_outliers": 10.9,
+    "acentric_outliers": 0,
+    "angles_rmsz": 1.58,
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.65,
+    "bulk_solvent_b": 77.011,
+    "bulk_solvent_k": 0.264,
+    "ccp4version": "7.0.044 (Gargrove)",
+    "centric_outliers": 0.0,
+    "clashscore": 8.96,
+    "data_anisotropy": 0.12,
+    "data_completeness": 97.04,
+    "high_resol_relative_percentile_dccrfree": 2.36,
+    "high_resol_relative_percentile_clashscore": 2.36,
+    "high_resol_relative_percentile_percent_rsrzoutliers": 2.36,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 2.36,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 2.36,
+    "low_resol_relative_percentile_dccrfree": 2.36,
+    "low_resol_relative_percentile_clashscore": 2.36,
+    "low_resol_relative_percentile_percent_rsrzoutliers": 2.36,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 2.36,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 2.36,
+    "no_ligands_for_buster_report": "yes",
+    "num_hreduce": 5854.0,
+    "num_pdbids_absolute_percentile_dccrfree": 130704,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_rsrzoutliers": 127900,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_dccrfree": 1164,
+    "num_pdbids_relative_percentile_clashscore": 1232,
+    "num_pdbids_relative_percentile_percent_rsrzoutliers": 1150,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 1211,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 1212,
+    "num_angles_rmsz": 8497,
+    "num_bonds_rmsz": 6239,
+    "num_free_reflections": 2451,
+    "num_miller_indices": 34218,
+    "percent_rsrzoutliers": 0.26,
+    "percent_free_reflections": 7.16,
+    "percent_ramachandran_outliers": 0.13,
+    "percent_rotamer_outliers": 8.31,
+    "percentilebins": [
+      "all",
+      "2.36",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1,2",
+    "refmac_version": "5.8.0158",
+    "relative_percentile_dccrfree": 97.8,
+    "relative_percentile_clashscore": 34.3,
+    "relative_percentile_percent_rsrzoutliers": 96.7,
+    "relative_percentile_percent_ramachandran_outliers": 62.5,
+    "relative_percentile_percent_rotamer_outliers": 10.7,
+    "report_creation_date": "May 16, 2020 -- 05:35 am BST",
+    "restypes_notchecked_for_bond_angle_geometry": [
+      "MNP",
+      "CA"
+    ],
+    "trans_nsc": "The largest off-origin peak in the Patterson function is 6.63% of the height of the origin peak. No significant pseudotranslation is detected.",
+    "twin_l": 0.503,
+    "twin_l2": 0.338,
+    "xtriage_input_columns": "F_meas_au,F_meas_sigma_au",
+    "bfactor_type": "FULL",
+    "dccrfree": 0.2,
+    "dccrefinement_program": "REFMAC",
+    "edsresolution": 2.36,
+    "edsresolution_low": 26.12,
+    "iover_sigma": "3.40(2.36A)",
+    "pdbrfree": 0.22,
+    "pdbdeposition_date": "1997-05-01T00:00:00+0000",
+    "pdbresolution": 2.36,
+    "pdbresolution_low": 26.12,
+    "pdbrevision_date": "2011-07-13T00:00:00+0000",
+    "pdbrevision_number": 3.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1997-05-01T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1997-11-12T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2011-07-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "1AI5",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2"
+    ],
+    "rcsb_id": "1AI5",
+    "pubmed_id": 9813130
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 3,
+    "deposited_atom_count": 6748,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 763,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 2,
+    "deposited_polymer_monomer_count": 766,
+    "deposited_solvent_atom_count": 663,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.98,
+    "diffrn_radiation_wavelength_minimum": 0.98,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 86.49,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.18,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 2,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 2,
+    "polymer_entity_taxonomy_count": 2,
+    "polymer_molecular_weight_maximum": 62.43,
+    "polymer_molecular_weight_minimum": 23.84,
+    "polymer_monomer_count_maximum": 557,
+    "polymer_monomer_count_minimum": 209,
+    "resolution_combined": [
+      2.36
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DENZO",
+      "REFMAC",
+      "SCALEPACK"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.36
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "J.Mol.Biol.",
+    "journal_id_astm": "JMOBAK",
+    "journal_id_csd": "0070",
+    "journal_id_issn": "0022-2836",
+    "journal_volume": "284",
+    "page_first": "463",
+    "page_last": "475",
+    "pdbx_database_id_doi": "10.1006/jmbi.1998.2180",
+    "pdbx_database_id_pub_med": 9813130,
+    "rcsb_authors": [
+      "Done, S.H.",
+      "Brannigan, J.A.",
+      "Moody, P.C.E.",
+      "Hubbard, R.E."
+    ],
+    "rcsb_journal_abbrev": "J Mol Biol",
+    "title": "Ligand-induced conformational change in penicillin acylase.",
+    "year": 1998
+  },
+  "refine": [
+    {
+      "ls_rfactor_rfree": 0.2215,
+      "ls_rfactor_rwork": 0.1493,
+      "ls_dres_high": 2.36,
+      "ls_dres_low": 26.12,
+      "ls_number_reflns_rfree": 2394,
+      "ls_number_reflns_obs": 34287,
+      "ls_percent_reflns_rfree": 7.0,
+      "ls_percent_reflns_obs": 97.4,
+      "pdbx_rfree_selection_details": "BASED ON NATIVE",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE_R",
+      "pdbx_ls_sigma_f": 0.0,
+      "pdbx_method_to_determine_struct": "STRUCTURE ISOMORPHOUS TO NATIVE",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "biso_mean": 30.47
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.36,
+      "d_res_low": 26.12,
+      "number_atoms_solvent": 663,
+      "number_atoms_total": 6748,
+      "pdbx_number_atoms_ligand": 14,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 6071,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.016,
+      "dev_ideal_target": 0.02,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_bond_d"
+    },
+    {
+      "dev_ideal": 0.041,
+      "dev_ideal_target": 0.04,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_angle_deg"
+    },
+    {
+      "dev_ideal": 0.046,
+      "dev_ideal_target": 0.05,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_planar_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_hb_or_metal_coord"
+    },
+    {
+      "dev_ideal": 3.369,
+      "dev_ideal_target": 3.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_mcbond_it"
+    },
+    {
+      "dev_ideal": 4.4,
+      "dev_ideal_target": 5.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_mcangle_it"
+    },
+    {
+      "dev_ideal": 7.402,
+      "dev_ideal_target": 5.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_scbond_it"
+    },
+    {
+      "dev_ideal": 9.464,
+      "dev_ideal_target": 10.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_scangle_it"
+    },
+    {
+      "dev_ideal": 0.0266,
+      "dev_ideal_target": 0.03,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_plane_restr"
+    },
+    {
+      "dev_ideal": 0.152,
+      "dev_ideal_target": 0.15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.184,
+      "dev_ideal_target": 0.3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_singtor_nbd"
+    },
+    {
+      "dev_ideal": 0.324,
+      "dev_ideal_target": 0.3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_multtor_nbd"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_xhyhbond_nbd"
+    },
+    {
+      "dev_ideal": 0.155,
+      "dev_ideal_target": 0.3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_xyhbond_nbd"
+    },
+    {
+      "dev_ideal": 5.2,
+      "dev_ideal_target": 7.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_planar_tor"
+    },
+    {
+      "dev_ideal": 19.2,
+      "dev_ideal_target": 15.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_staggered_tor"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_orthonormal_tor"
+    },
+    {
+      "dev_ideal": 26.8,
+      "dev_ideal_target": 20.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_transverse_tor"
+    },
+    {
+      "dev_ideal": 0.0,
+      "dev_ideal_target": 15.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_special_tor"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 2.36,
+      "d_resolution_low": 26.12,
+      "number_obs": 34287,
+      "pdbx_rmerge_iobs": 0.091,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_i": 8.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.1,
+      "percent_possible_obs": 97.4,
+      "biso_wilson_estimate": 19.02
+    }
+  ],
+  "reflns_shell": [
+    {
+      "rmerge_iobs": 0.331,
+      "d_res_high": 2.35,
+      "d_res_low": 2.48,
+      "mean_iover_sig_iobs": 2.3,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.0,
+      "percent_possible_all": 93.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "DENZO",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "struct": {
+    "pdbx_descriptor": "PENICILLIN AMIDOHYDROLASE, 2-(3-NITROPHENYL)ACETIC ACID",
+    "title": "PENICILLIN ACYLASE COMPLEXED WITH M-NITROPHENYLACETIC ACID"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "ANTIBIOTIC RESISTANCE",
+    "text": "ANTIBIOTIC RESISTANCE, LIGAND INDUCED CONFORMATIONAL CHANGE, HYDROLASE"
+  },
+  "symmetry": {
+    "int_tables_number": 1,
+    "space_group_name_hm": "P 1"
+  },
+  "rcsb_id": "1AI5",
+  "rcsb_binding_affinity": [
+    {
+      "comp_id": "MNP",
+      "type": "Ki",
+      "value": 189000.0,
+      "unit": "nM",
+      "provenance_code": "Binding MOAD",
+      "link": "http://www.bindingmoad.org/pdbrecords/index/1ai5"
+    },
+    {
+      "comp_id": "MNP",
+      "type": "Ki",
+      "value": 189000.0,
+      "unit": "nM",
+      "provenance_code": "PDBBind",
+      "link": "http://www.pdbbind-cn.org/quickpdb.php?quickpdb=1ai5"
+    }
+  ]
+}

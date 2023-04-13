@@ -1,0 +1,47 @@
+{
+  "platform": "AERIS",
+  "matches": {
+    "spatialExtents.area.westLongitude": [
+      {
+        "platform": "ODATIS",
+        "key": "metadata_model.identificationInfo.MD_DataIdentification.extent.EX_Extent.geographicElement.EX_GeographicBoundingBox.westBoundLongitude.Decimal.value",
+        "type": "string"
+      }
+    ],
+    "spatialExtents.area.eastLongitude": [
+      {
+        "platform": "ODATIS",
+        "key": "metadata_model.identificationInfo.MD_DataIdentification.extent.EX_Extent.geographicElement.EX_GeographicBoundingBox.eastBoundLongitude.Decimal.value",
+        "type": "string"
+      }
+    ],
+    "spatialExtents.area.southLatitude": [
+      {
+        "platform": "ODATIS",
+        "key": "metadata_model.identificationInfo.MD_DataIdentification.extent.EX_Extent.geographicElement.EX_GeographicBoundingBox.southBoundLatitude.Decimal.value",
+        "type": "string"
+      }
+    ],
+    "spatialExtents.area.northLatitude": [
+      {
+        "platform": "ODATIS",
+        "key": "metadata_model.identificationInfo.MD_DataIdentification.extent.EX_Extent.geographicElement.EX_GeographicBoundingBox.northBoundLatitude.Decimal.value",
+        "type": "string"
+      }
+    ],
+    "temporalExtents.beginDate": [
+      {
+        "plateform": "ODATIS",
+        "key": "identificationInfo.MD_DataIdentification.extent.EX_Extent.temporalElement.EX_TemporalExtent.extent.TimePeriod.beginPosition.value",
+        "type": "string"
+      }
+    ],
+    "temporalExtents.endDate": [
+      {
+        "plateform": "ODATIS",
+        "key": "identificationInfo.MD_DataIdentification.extent.EX_Extent.temporalElement.EX_TemporalExtent.extent.TimePeriod.endPosition.value",
+        "type": "string"
+      }
+    ]
+  }
+}

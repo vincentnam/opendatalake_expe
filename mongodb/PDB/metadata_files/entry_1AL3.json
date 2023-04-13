@@ -1,0 +1,580 @@
+{
+  "audit_author": [
+    {
+      "name": "Verschueren, K.H.G.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Tyrrell, R.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Wilkinson, A.J.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 66.38,
+    "length_b": 107.53,
+    "length_c": 32.74,
+    "zpdb": 4
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Structure",
+      "journal_id_astm": "STRUE6",
+      "journal_id_csd": "2005",
+      "journal_id_issn": "0969-2126",
+      "journal_volume": "5",
+      "page_first": "1017",
+      "page_last": "1032",
+      "pdbx_database_id_doi": "10.1016/S0969-2126(97)00254-2",
+      "pdbx_database_id_pub_med": 9309218,
+      "rcsb_authors": [
+        "Tyrrell, R.",
+        "Verschueren, K.H.",
+        "Dodson, E.J.",
+        "Murshudov, G.N.",
+        "Addy, C.",
+        "Wilkinson, A.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Structure",
+      "title": "The structure of the cofactor-binding fragment of the LysR family member, CysB: a familiar fold with a surprising subunit arrangement.",
+      "year": 1997
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 293.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1994-12-17T00:00:00+0000",
+      "type": "MAR scanner 300 mm plate"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X11",
+      "pdbx_synchrotron_site": "EMBL/DESY, Hamburg",
+      "pdbx_wavelength": "0.91",
+      "source": "SYNCHROTRON",
+      "type": "EMBL/DESY, HAMBURG BEAMLINE X11"
+    }
+  ],
+  "entry": {
+    "id": "1AL3"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 2.22,
+      "density_percent_sol": 44.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "p_h": 6.5,
+      "pdbx_details": "COFACTOR BINDING DOMAIN WAS CRYSTALLISED IN HANGING DROPS AT 18 DEGREES CELSIUS FROM 14% MONO-METHYLETHER PEG750, 100MM MES PH 6.5, vapor diffusion - hanging drop, temperature 291K",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1997-12-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "process_site": "BNL",
+    "recvd_initial_deposition_date": "1997-06-10T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "babinet_b": 262.943,
+    "babinet_k": 0.232,
+    "dcc_r": 0.18,
+    "eds_r": 0.18,
+    "fo_fc_correlation": 0.959,
+    "pdb_r": 0.18,
+    "wilson_baniso": "[20.596,12.695,19.659,0.000,0.000,0.000]",
+    "wilson_bestimate": 17.242,
+    "absolute_percentile_dccrfree": 58.0,
+    "absolute_percentile_clashscore": 2.7,
+    "absolute_percentile_percent_rsrzoutliers": 49.8,
+    "absolute_percentile_percent_ramachandran_outliers": 100.0,
+    "absolute_percentile_percent_rotamer_outliers": 10.4,
+    "acentric_outliers": 0,
+    "angles_rmsz": 1.47,
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.68,
+    "bulk_solvent_b": 66.338,
+    "bulk_solvent_k": 0.278,
+    "ccp4version": "7.0.044 (Gargrove)",
+    "centric_outliers": 0.0,
+    "clashscore": 35.0,
+    "data_anisotropy": 0.448,
+    "data_completeness": 93.02,
+    "high_resol_relative_percentile_dccrfree": 1.8,
+    "high_resol_relative_percentile_clashscore": 1.8,
+    "high_resol_relative_percentile_percent_rsrzoutliers": 1.8,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 1.8,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 1.8,
+    "low_resol_relative_percentile_dccrfree": 1.8,
+    "low_resol_relative_percentile_clashscore": 1.8,
+    "low_resol_relative_percentile_percent_rsrzoutliers": 1.8,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 1.8,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 1.8,
+    "no_ligands_for_buster_report": "yes",
+    "num_hreduce": 2037.0,
+    "num_pdbids_absolute_percentile_dccrfree": 130704,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_rsrzoutliers": 127900,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_dccrfree": 5950,
+    "num_pdbids_relative_percentile_clashscore": 6793,
+    "num_pdbids_relative_percentile_percent_rsrzoutliers": 5850,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 6697,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 6696,
+    "num_angles_rmsz": 2848,
+    "num_bonds_rmsz": 2094,
+    "num_free_reflections": 1060,
+    "num_miller_indices": 20911,
+    "percent_rsrzoutliers": 2.95,
+    "percent_free_reflections": 5.07,
+    "percent_ramachandran_outliers": 0.0,
+    "percent_rotamer_outliers": 8.46,
+    "percentilebins": [
+      "all",
+      "1.8",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1",
+    "refmac_version": "5.8.0158",
+    "relative_percentile_dccrfree": 39.1,
+    "relative_percentile_clashscore": 0.4,
+    "relative_percentile_percent_rsrzoutliers": 44.2,
+    "relative_percentile_percent_ramachandran_outliers": 100.0,
+    "relative_percentile_percent_rotamer_outliers": 2.8,
+    "report_creation_date": "May 14, 2020 -- 11:28 pm BST",
+    "restypes_notchecked_for_bond_angle_geometry": [
+      "SO4"
+    ],
+    "trans_nsc": "The largest off-origin peak in the Patterson function is 6.17% of the height of the origin peak. No significant pseudotranslation is detected.",
+    "twin_l": 0.482,
+    "twin_l2": 0.317,
+    "xtriage_input_columns": "F_meas_au,F_meas_sigma_au",
+    "bfactor_type": "FULL",
+    "dccrfree": 0.23,
+    "dccrefinement_program": "REFMAC",
+    "edsresolution": 1.8,
+    "edsresolution_low": 19.83,
+    "iover_sigma": "1.88(1.80A)",
+    "pdbrfree": 0.25,
+    "pdbdeposition_date": "1997-06-10T00:00:00+0000",
+    "pdbresolution": 1.8,
+    "pdbresolution_low": 20.0,
+    "pdbrevision_date": "2011-07-13T00:00:00+0000",
+    "pdbrevision_number": 3.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1997-06-10T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1997-12-24T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2011-07-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "1AL3",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "1AL3",
+    "pubmed_id": 9309218
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2296,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 237,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 324,
+    "deposited_solvent_atom_count": 253,
+    "deposited_unmodeled_polymer_monomer_count": 87,
+    "diffrn_radiation_wavelength_maximum": 0.91,
+    "diffrn_radiation_wavelength_minimum": 0.91,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 36.1,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.1,
+    "nonpolymer_molecular_weight_minimum": 0.1,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 36.01,
+    "polymer_molecular_weight_minimum": 36.01,
+    "polymer_monomer_count_maximum": 324,
+    "polymer_monomer_count_minimum": 324,
+    "resolution_combined": [
+      1.8
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "CCP4",
+      "DENZO",
+      "MLPHARE",
+      "REFMAC"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.8
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Structure",
+    "journal_id_astm": "STRUE6",
+    "journal_id_csd": "2005",
+    "journal_id_issn": "0969-2126",
+    "journal_volume": "5",
+    "page_first": "1017",
+    "page_last": "1032",
+    "pdbx_database_id_doi": "10.1016/S0969-2126(97)00254-2",
+    "pdbx_database_id_pub_med": 9309218,
+    "rcsb_authors": [
+      "Tyrrell, R.",
+      "Verschueren, K.H.",
+      "Dodson, E.J.",
+      "Murshudov, G.N.",
+      "Addy, C.",
+      "Wilkinson, A.J."
+    ],
+    "rcsb_journal_abbrev": "Structure",
+    "title": "The structure of the cofactor-binding fragment of the LysR family member, CysB: a familiar fold with a surprising subunit arrangement.",
+    "year": 1997
+  },
+  "refine": [
+    {
+      "ls_rfactor_rfree": 0.246,
+      "ls_rfactor_rwork": 0.179,
+      "ls_dres_high": 1.8,
+      "ls_dres_low": 20.0,
+      "ls_number_reflns_rfree": 1054,
+      "ls_number_reflns_obs": 22479,
+      "ls_percent_reflns_rfree": 5.0,
+      "ls_percent_reflns_obs": 94.1,
+      "pdbx_rfree_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MIR",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "biso_mean": 29.8
+    }
+  ],
+  "refine_analyze": [
+    {
+      "luzzati_sigma_aobs": 0.15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.8,
+      "d_res_low": 20.0,
+      "number_atoms_solvent": 253,
+      "number_atoms_total": 2296,
+      "pdbx_number_atoms_ligand": 5,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2038,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "dev_ideal_target": 0.02,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_bond_d"
+    },
+    {
+      "dev_ideal": 0.033,
+      "dev_ideal_target": 0.04,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_angle_deg"
+    },
+    {
+      "dev_ideal": 0.039,
+      "dev_ideal_target": 0.05,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_planar_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_hb_or_metal_coord"
+    },
+    {
+      "dev_ideal": 3.38,
+      "dev_ideal_target": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_mcbond_it"
+    },
+    {
+      "dev_ideal": 4.45,
+      "dev_ideal_target": 3.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_mcangle_it"
+    },
+    {
+      "dev_ideal": 4.17,
+      "dev_ideal_target": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_scbond_it"
+    },
+    {
+      "dev_ideal": 5.88,
+      "dev_ideal_target": 3.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_scangle_it"
+    },
+    {
+      "dev_ideal": 0.03,
+      "dev_ideal_target": 0.04,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_plane_restr"
+    },
+    {
+      "dev_ideal": 0.13,
+      "dev_ideal_target": 0.15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.21,
+      "dev_ideal_target": 0.3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_singtor_nbd"
+    },
+    {
+      "dev_ideal": 0.32,
+      "dev_ideal_target": 0.3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_multtor_nbd"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_xhyhbond_nbd"
+    },
+    {
+      "dev_ideal": 0.27,
+      "dev_ideal_target": 0.3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_xyhbond_nbd"
+    },
+    {
+      "dev_ideal": 5.0,
+      "dev_ideal_target": 7.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_planar_tor"
+    },
+    {
+      "dev_ideal": 21.5,
+      "dev_ideal_target": 15.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_staggered_tor"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_orthonormal_tor"
+    },
+    {
+      "dev_ideal": 24.5,
+      "dev_ideal_target": 20.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_transverse_tor"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "p_special_tor"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.8,
+      "d_resolution_low": 20.0,
+      "number_obs": 22479,
+      "observed_criterion_sigma_i": 0.0,
+      "pdbx_rmerge_iobs": 0.044,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_i": 7.7,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.5,
+      "percent_possible_obs": 94.1
+    }
+  ],
+  "reflns_shell": [
+    {
+      "rmerge_iobs": 0.319,
+      "d_res_high": 1.8,
+      "d_res_low": 1.9,
+      "mean_iover_sig_iobs": 1.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.1,
+      "percent_possible_all": 84.9
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "DENZO",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "CCP4",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "MLPHARE",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data scaling",
+      "name": "CCP4",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_descriptor": "CYS REGULON TRANSCRIPTIONAL ACTIVATOR CYSB",
+    "title": "COFACTOR BINDING FRAGMENT OF CYSB FROM KLEBSIELLA AEROGENES"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSCRIPTION REGULATION",
+    "text": "LYSR FAMILY, CYSTEINE BIOSYNTHESIS, TRANSCRIPTION REGULATION"
+  },
+  "symmetry": {
+    "int_tables_number": 18,
+    "space_group_name_hm": "P 21 21 2"
+  },
+  "rcsb_id": "1AL3"
+}

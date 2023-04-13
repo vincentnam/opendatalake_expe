@@ -1,0 +1,64 @@
+{
+  "platform": "PDB",
+  "matches": {
+    "citation.rcsb_journal_abbrev": [
+      {
+        "platform": "AERIS",
+        "key": "publications.journalName",
+        "type": "string"
+      }
+    ],
+    "citation.year": [
+      {
+        "platform": "AERIS",
+        "key": "publications.publicationYear",
+        "type": "string"
+      }
+    ],
+    "citation.title": [
+      {
+        "platform": "AERIS",
+        "key": "publications.title",
+        "type": "string"
+      },
+      {
+        "platform": "ODATIS",
+        "key": "identificationInfo.MD_DataIdentification.citation.CI_Citation.title.CharacterString.value",
+        "type": "string"
+      }
+    ],
+    "pdbx_database_status.recvd_initial_deposition_date": [
+      {
+        "platform": "AERIS",
+        "key": "datasetSpecification.datasetCreationDate",
+        "type": "string"
+      }
+    ],
+    "rcsb_accession_info.initial_release_date": [
+      {
+        "platform": "AERIS",
+        "key": "datasetSpecification.datasetPublicationDate",
+        "type": "string"
+      },
+      {
+        "platform": "ODATIS",
+        "key": "MD_Metadata.identificationInfo.MD_DataIdentification.citation.CI_Citation.date.CI_date.date.Date.value",
+        "type": "string"
+      }
+    ],
+    "struct_keywords.pdbx_keywords": [
+      {
+        "platform": "ODATIS",
+        "key": "identificationInfo.MD_DataIdentification.descriptiveKeywords.MD_Keywords.keyword.CharacterString.value",
+        "type": "string"
+      },
+      {
+        "platform": "AERIS",
+        "key": "keywords.concept",
+        "type": "string"
+      }
+    ]
+  }
+}
+
+

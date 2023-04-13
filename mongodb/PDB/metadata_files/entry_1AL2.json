@@ -1,0 +1,682 @@
+{
+  "audit_author": [
+    {
+      "name": "Wien, M.W.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Curry, S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Filman, D.J.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Hogle, J.M.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 320.15,
+    "length_b": 355.3,
+    "length_c": 377.15,
+    "zpdb": 4
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Nat.Struct.Biol.",
+      "journal_id_astm": "NSBIEW",
+      "journal_id_csd": "2024",
+      "journal_id_issn": "1072-8368",
+      "journal_volume": "4",
+      "page_first": "666",
+      "page_last": "674",
+      "pdbx_database_id_doi": "10.1038/nsb0897-666",
+      "pdbx_database_id_pub_med": 9253417,
+      "rcsb_authors": [
+        "Wien, M.W.",
+        "Curry, S.",
+        "Filman, D.J.",
+        "Hogle, J.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Struct Biol",
+      "title": "Structural studies of poliovirus mutants that overcome receptor defects.",
+      "year": 1997
+    },
+    {
+      "country": "DK",
+      "id": "1",
+      "journal_abbrev": "Acta Crystallogr.,Sect.D",
+      "journal_id_astm": "ABCRE6",
+      "journal_id_csd": "0766",
+      "journal_id_issn": "0907-4449",
+      "journal_volume": "52",
+      "page_first": "693",
+      "rcsb_authors": [
+        "Jacobson, D.H.",
+        "Hogle, J.M.",
+        "Filman, D.J."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Acta Crystallogr D Biol Crystallogr",
+      "title": "A Pseudo-Cell Based Approach to Efficient Crystallographic Refinement of Viruses",
+      "year": 1996
+    },
+    {
+      "country": "US",
+      "id": "2",
+      "journal_abbrev": "Science",
+      "journal_id_astm": "SCIEAS",
+      "journal_id_csd": "0038",
+      "journal_id_issn": "0036-8075",
+      "journal_volume": "229",
+      "page_first": "1358",
+      "rcsb_authors": [
+        "Hogle, J.M.",
+        "Chow, M.",
+        "Filman, D.J."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Science",
+      "title": "Three-Dimensional Structure of Poliovirus at 2.9 A Resolution",
+      "year": 1985
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 113.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "SUPPER LONG MIRRORS",
+      "detector": "AREA DETECTOR",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1995-12-01T00:00:00+0000",
+      "type": "MARRESEARCH"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "SUPPER LONG MIRRORS",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "ELLIOTT GX-13"
+    }
+  ],
+  "entry": {
+    "id": "1AL2"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 2.59,
+      "density_percent_sol": 30.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "microdiaylsis",
+      "p_h": 7.5,
+      "pdbx_details": "VIRUS WAS CRYSTALLIZED BY MICRODIALYSIS AGAINST 10MM PIPES, 0-70 MM NACL, PH 7.5, 2% PEG 400, microdiaylsis"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "pdbx_database_status",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "struct_conf",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "struct_conf_type",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "struct_ref_seq_dif",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "struct_site",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Source and taxonomy",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Other",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 7,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1997-11-19T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2017-11-29T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 4,
+      "ordinal": 5,
+      "revision_date": "2021-11-03T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_database_status.process_site",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 2,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 3,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_leaving_atom_flag",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref_seq_dif.details",
+      "ordinal": 5,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_asym_id",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_comp_id",
+      "ordinal": 7,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_seq_id",
+      "ordinal": 8,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "process_site": "BNL",
+    "recvd_initial_deposition_date": "1997-06-09T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "pdb_r": 0.24,
+    "absolute_percentile_clashscore": 66.8,
+    "absolute_percentile_percent_ramachandran_outliers": 34.0,
+    "absolute_percentile_percent_rotamer_outliers": 29.5,
+    "angles_rmsz": 1.41,
+    "attempted_validation_steps": "molprobity,validation-pack,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.79,
+    "clashscore": 3.94,
+    "high_resol_relative_percentile_clashscore": 2.9,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 2.9,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 2.9,
+    "ligands_for_buster_report": "yes",
+    "low_resol_relative_percentile_clashscore": 2.9,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 2.9,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 2.9,
+    "num_hreduce": 6525.0,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_clashscore": 2172,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 2115,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 2117,
+    "num_angles_rmsz": 9283,
+    "num_bonds_rmsz": 6806,
+    "percent_ramachandran_outliers": 0.36,
+    "percent_rotamer_outliers": 4.19,
+    "percentilebins": [
+      "all",
+      "2.9",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1,2,3,4,5",
+    "relative_percentile_clashscore": 85.2,
+    "relative_percentile_percent_ramachandran_outliers": 66.0,
+    "relative_percentile_percent_rotamer_outliers": 63.2,
+    "report_creation_date": "Oct 23, 2021 -- 02:42 PM EDT",
+    "restypes_notchecked_for_bond_angle_geometry": [
+      "SPH",
+      "MYR"
+    ],
+    "pdbdeposition_date": "1997-06-09T00:00:00+0000",
+    "pdbresolution": 2.9,
+    "pdbresolution_low": 11.0,
+    "pdbrevision_date": "2021-11-03T00:00:00+0000",
+    "pdbrevision_number": 5.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1997-06-09T00:00:00+0000",
+    "has_released_experimental_data": "N",
+    "initial_release_date": "1997-11-19T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 4,
+    "revision_date": "2021-11-03T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "entry_id": "1AL2",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "6",
+      "7"
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "rcsb_id": "1AL2",
+    "pubmed_id": 9253417
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 7203,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 851,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 5,
+    "deposited_polymer_monomer_count": 885,
+    "deposited_solvent_atom_count": 534,
+    "deposited_unmodeled_polymer_monomer_count": 34,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 8,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 1,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 98.48,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "MYR"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.3,
+    "nonpolymer_molecular_weight_minimum": 0.23,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 5,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 5,
+    "polymer_entity_taxonomy_count": 5,
+    "polymer_molecular_weight_maximum": 33.5,
+    "polymer_molecular_weight_minimum": 0.44,
+    "polymer_monomer_count_maximum": 302,
+    "polymer_monomer_count_minimum": 5,
+    "resolution_combined": [
+      2.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DENZO",
+      "SCALEPACK",
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Nat.Struct.Biol.",
+    "journal_id_astm": "NSBIEW",
+    "journal_id_csd": "2024",
+    "journal_id_issn": "1072-8368",
+    "journal_volume": "4",
+    "page_first": "666",
+    "page_last": "674",
+    "pdbx_database_id_doi": "10.1038/nsb0897-666",
+    "pdbx_database_id_pub_med": 9253417,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Wien, M.W.",
+      "Curry, S.",
+      "Filman, D.J.",
+      "Hogle, J.M."
+    ],
+    "rcsb_journal_abbrev": "Nat Struct Biol",
+    "title": "Structural studies of poliovirus mutants that overcome receptor defects.",
+    "year": 1997
+  },
+  "refine": [
+    {
+      "details": "XX12 PROTOMER BOX BASED REFINEMENT, SEE JACOBSON ET AL. PROGRAM : PROTOMER-BOX-BASED PSEUDO-REAL-SPACE AUTHORS : FILMAN",
+      "ls_rfactor_rwork": 0.241,
+      "ls_rfactor_obs": 0.241,
+      "ls_dres_high": 2.9,
+      "ls_dres_low": 11.0,
+      "ls_number_reflns_obs": 615066,
+      "ls_percent_reflns_obs": 66.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_starting_model": "PDB ENTRY 2PLV"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.9,
+      "d_res_low": 11.0,
+      "number_atoms_solvent": 534,
+      "number_atoms_total": 7203,
+      "pdbx_number_atoms_ligand": 36,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 6633,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 2.55,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "dev_ideal": 25.8,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.27,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 2.9,
+      "d_resolution_low": 40.0,
+      "number_obs": 615179,
+      "observed_criterion_sigma_i": 0.0,
+      "pdbx_rmerge_iobs": 0.113,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.0,
+      "percent_possible_obs": 66.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "model building",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 1,
+      "version": "3.0"
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 2,
+      "version": "3.0"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DENZO",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 5,
+      "version": "3.0"
+    }
+  ],
+  "struct": {
+    "title": "P1/MAHONEY POLIOVIRUS, SINGLE SITE MUTANT V1160I"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "VIRUS",
+    "text": "PICORNAVIRUS, POLIOVIRUS, COAT PROTEIN, Icosahedral virus, Virus"
+  },
+  "symmetry": {
+    "int_tables_number": 18,
+    "space_group_name_hm": "P 21 21 2"
+  },
+  "rcsb_id": "1AL2"
+}

@@ -1,0 +1,583 @@
+{
+  "audit_author": [
+    {
+      "name": "Malashkevich, V.N.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Jansonius, J.N.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 118.8,
+    "angle_gamma": 90.0,
+    "length_a": 86.4,
+    "length_b": 79.0,
+    "length_c": 90.8,
+    "zpdb": 4
+  },
+  "citation": [
+    {
+      "country": "IX",
+      "id": "primary",
+      "journal_abbrev": "Eur.J.Biochem.",
+      "journal_id_astm": "EJBCAI",
+      "journal_id_csd": "0262",
+      "journal_id_issn": "0014-2956",
+      "journal_volume": "227",
+      "page_first": "481",
+      "page_last": "487",
+      "pdbx_database_id_doi": "10.1111/j.1432-1033.1995.tb20413.x",
+      "pdbx_database_id_pub_med": 7851426,
+      "rcsb_authors": [
+        "Vacca, R.A.",
+        "Christen, P.",
+        "Malashkevich, V.N.",
+        "Jansonius, J.N.",
+        "Sandmeier, E."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Eur J Biochem",
+      "title": "Substitution of apolar residues in the active site of aspartate aminotransferase by histidine. Effects on reaction and substrate specificity.",
+      "year": 1995
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 277.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "DIFFRACTOMETER",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1994-01-19T00:00:00+0000",
+      "type": "ENRAF-NONIUS FAST"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength": "1.54"
+    }
+  ],
+  "entry": {
+    "id": "1ARI"
+  },
+  "exptl": [
+    {
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 3.12,
+      "density_percent_sol": 60.51,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "p_h": 7.5,
+      "pdbx_details": "pH 7.5"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "diffrn_detector",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_database_status",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "struct_ref_seq_dif",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "struct_site",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Non-polymer description",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Other",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 7,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1995-11-14T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-03T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2018-04-18T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 4,
+      "ordinal": 5,
+      "revision_date": "2021-11-03T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_diffrn_detector.detector",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_database_status.process_site",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 3,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_leaving_atom_flag",
+      "ordinal": 5,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref_seq_dif.details",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_asym_id",
+      "ordinal": 7,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_comp_id",
+      "ordinal": 8,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_seq_id",
+      "ordinal": 9,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "process_site": "BNL",
+    "recvd_initial_deposition_date": "1995-08-23T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "pdb_r": 0.21,
+    "absolute_percentile_clashscore": 3.1,
+    "absolute_percentile_percent_ramachandran_outliers": 11.7,
+    "absolute_percentile_percent_rotamer_outliers": 0.4,
+    "angles_rmsz": 1.35,
+    "attempted_validation_steps": "molprobity,validation-pack,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.94,
+    "clashscore": 33.07,
+    "high_resol_relative_percentile_clashscore": 2.3,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 2.3,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 2.3,
+    "low_resol_relative_percentile_clashscore": 2.3,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 2.3,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 2.3,
+    "no_ligands_for_buster_report": "yes",
+    "num_hreduce": 6040.0,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_clashscore": 5643,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 5575,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 5575,
+    "num_angles_rmsz": 8464,
+    "num_bonds_rmsz": 6250,
+    "percent_ramachandran_outliers": 1.27,
+    "percent_rotamer_outliers": 25.78,
+    "percentilebins": [
+      "all",
+      "2.3",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1",
+    "relative_percentile_clashscore": 2.2,
+    "relative_percentile_percent_ramachandran_outliers": 12.2,
+    "relative_percentile_percent_rotamer_outliers": 0.3,
+    "report_creation_date": "Oct 23, 2021 -- 03:46 PM EDT",
+    "restypes_notchecked_for_bond_angle_geometry": [
+      "PLP",
+      "MAE"
+    ],
+    "pdbdeposition_date": "1995-08-23T00:00:00+0000",
+    "pdbresolution": 2.3,
+    "pdbresolution_low": 8.0,
+    "pdbrevision_date": "2021-11-03T00:00:00+0000",
+    "pdbrevision_number": 5.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1995-08-23T00:00:00+0000",
+    "has_released_experimental_data": "N",
+    "initial_release_date": "1995-11-14T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 4,
+    "revision_date": "2021-11-03T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "1ARI",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "1ARI",
+    "pubmed_id": 7851426
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 4,
+    "deposited_atom_count": 6883,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 792,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 2,
+    "deposited_polymer_monomer_count": 792,
+    "deposited_solvent_atom_count": 707,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.54,
+    "diffrn_radiation_wavelength_minimum": 1.54,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 2,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 87.87,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "PLP"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.25,
+    "nonpolymer_molecular_weight_minimum": 0.12,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 43.57,
+    "polymer_molecular_weight_minimum": 43.57,
+    "polymer_monomer_count_maximum": 396,
+    "polymer_monomer_count_minimum": 396,
+    "resolution_combined": [
+      2.3
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "MADNES",
+      "TNT"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "From refinement resolution cutoff",
+      "value": 2.3
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "IX",
+    "id": "primary",
+    "journal_abbrev": "Eur.J.Biochem.",
+    "journal_id_astm": "EJBCAI",
+    "journal_id_csd": "0262",
+    "journal_id_issn": "0014-2956",
+    "journal_volume": "227",
+    "page_first": "481",
+    "page_last": "487",
+    "pdbx_database_id_doi": "10.1111/j.1432-1033.1995.tb20413.x",
+    "pdbx_database_id_pub_med": 7851426,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Vacca, R.A.",
+      "Christen, P.",
+      "Malashkevich, V.N.",
+      "Jansonius, J.N.",
+      "Sandmeier, E."
+    ],
+    "rcsb_journal_abbrev": "Eur J Biochem",
+    "title": "Substitution of apolar residues in the active site of aspartate aminotransferase by histidine. Effects on reaction and substrate specificity.",
+    "year": 1995
+  },
+  "refine": [
+    {
+      "ls_rfactor_obs": 0.21,
+      "ls_dres_high": 2.3,
+      "ls_dres_low": 8.0,
+      "ls_number_reflns_obs": 43000,
+      "ls_percent_reflns_obs": 92.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_isotropic_thermal_model": "B-CORRELATION METHOD",
+      "pdbx_ls_sigma_f": 1.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_stereochemistry_target_values": "ENGH AND HUBER",
+      "solvent_model_details": "MOEWS AND KRETSINGER, JMB (1975) 91,201-22",
+      "solvent_model_param_bsol": 327.6,
+      "solvent_model_param_ksol": 0.558
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.3,
+      "d_res_low": 8.0,
+      "number_atoms_solvent": 707,
+      "number_atoms_total": 6883,
+      "pdbx_number_atoms_ligand": 46,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 6130,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.012,
+      "number": 6296,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_bond_d",
+      "weight": 0.02
+    },
+    {
+      "dev_ideal": 2.31,
+      "number": 8500,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_angle_deg",
+      "weight": 3.0
+    },
+    {
+      "dev_ideal": 26.3,
+      "number": 3752,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_dihedral_angle_d",
+      "weight": 15.0
+    },
+    {
+      "dev_ideal": 0.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_incorr_chiral_ct"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_pseud_angle"
+    },
+    {
+      "dev_ideal": 0.004,
+      "number": 178,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_trig_c_planes",
+      "weight": 0.02
+    },
+    {
+      "dev_ideal": 0.011,
+      "number": 922,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_gen_planes",
+      "weight": 0.02
+    },
+    {
+      "dev_ideal": 3.6,
+      "number": 6690,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_it",
+      "weight": 0.2
+    },
+    {
+      "dev_ideal": 0.008,
+      "number": 262,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_nbd",
+      "weight": 0.1
+    }
+  ],
+  "reflns": [
+    {
+      "pdbx_rmerge_iobs": 0.171,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 1.5,
+      "biso_wilson_estimate": 18.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "TNT",
+      "pdbx_ordinal": 1,
+      "version": "4C"
+    },
+    {
+      "classification": "data reduction",
+      "name": "MADNES",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "struct": {
+    "title": "Aspartate aminotransferase, W140H mutant, maleate complex"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE (AMINOTRANSFERASE)",
+    "text": "TRANSFERASE (AMINOTRANSFERASE)"
+  },
+  "symmetry": {
+    "int_tables_number": 4,
+    "space_group_name_hm": "P 1 21 1"
+  },
+  "rcsb_id": "1ARI"
+}

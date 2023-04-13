@@ -1,0 +1,407 @@
+{
+    "fileIdentifier": {
+        "CharacterString": {
+            "value": "04315e23-027b-4abe-a154-b0c4d17fed7a"
+        }
+    },
+    "language": {
+        "LanguageCode": {
+            "codeList": "http://www.loc.gov/standards/iso639-2/",
+            "codeListValue": "fre",
+            "value": null
+        }
+    },
+    "characterSet": {
+        "MD_CharacterSetCode": {
+            "codeListValue": "utf8",
+            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode",
+            "value": null
+        }
+    },
+    "hierarchyLevel": {
+        "MD_ScopeCode": {
+            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+            "codeListValue": "dataset",
+            "value": null
+        }
+    },
+    "dateStamp": {
+        "DateTime": {
+            "value": "2019-03-21T09:40:20"
+        }
+    },
+    "metadataStandardName": {
+        "CharacterString": {
+            "value": "ISO 19115:2003/19139 - SEXTANT"
+        }
+    },
+    "metadataStandardVersion": {
+        "CharacterString": {
+            "value": "1.0"
+        }
+    },
+    "spatialRepresentationInfo": {
+        "MD_VectorSpatialRepresentation": {
+            "geometricObjects": {
+                "MD_GeometricObjects": {
+                    "geometricObjectType": {
+                        "MD_GeometricObjectTypeCode": {
+                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_GeometricObjectTypeCode",
+                            "codeListValue": "surface",
+                            "value": null
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "identificationInfo": {
+        "MD_DataIdentification": {
+            "citation": {
+                "CI_Citation": {
+                    "title": {
+                        "CharacterString": {
+                            "value": "3-Daily Sea-Ice Drift Vectors from ASMR-E onboard AQUA over Arctic on a 31.25 km Polar Grid"
+                        }
+                    },
+                    "date": {
+                        "CI_Date": {
+                            "date": {
+                                "Date": {
+                                    "value": "2007-02-02"
+                                }
+                            },
+                            "dateType": {
+                                "CI_DateTypeCode": {
+                                    "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+                                    "codeListValue": "publication",
+                                    "value": null
+                                }
+                            }
+                        }
+                    },
+                    "identifier": {
+                        "MD_Identifier": {
+                            "code": {
+                                "CharacterString": {
+                                    "value": "CER_PSI_ARC_3D_031_DFT_AMS"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "abstract": {
+                "CharacterString": {
+                    "value": "This products provides the sea-ice drift calculated over a three day rolling window during winter time (October to April) over Arctic ocean from AMSR-E microwave radiometer onboard AQUA"
+                }
+            },
+            "credit": {
+                "CharacterString": {
+                    "value": "CERSAT, Ifremer"
+                }
+            },
+            "pointOfContact": {
+                "CI_ResponsibleParty": {
+                    "individualName": {
+                        "CharacterString": {
+                            "value": "Piolle Jean-Francois"
+                        }
+                    },
+                    "organisationName": {
+                        "CharacterString": {
+                            "value": "IFREMER"
+                        }
+                    },
+                    "contactInfo": {
+                        "CI_Contact": {
+                            "phone": {
+                                "CI_Telephone": {
+                                    "voice": {
+                                        "CharacterString": {
+                                            "value": "02 98 22 46 91"
+                                        }
+                                    },
+                                    "facsimile": {
+                                        "CharacterString": {
+                                            "value": "02 98 22 45 33"
+                                        }
+                                    }
+                                }
+                            },
+                            "address": {
+                                "CI_Address": {
+                                    "deliveryPoint": {
+                                        "CharacterString": {
+                                            "value": "Centre Bretagne - ZI de la Pointe du Diable - CS 10070 - 29280 Plouzan\u00e9"
+                                        }
+                                    },
+                                    "city": {
+                                        "CharacterString": {
+                                            "value": "Brest"
+                                        }
+                                    },
+                                    "country": {
+                                        "CharacterString": {
+                                            "value": "France"
+                                        }
+                                    },
+                                    "electronicMailAddress": {
+                                        "CharacterString": {
+                                            "value": "Jean.Francois.Piolle@ifremer.fr"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "role": {
+                        "CI_RoleCode": {
+                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+                            "codeListValue": "custodian",
+                            "value": null
+                        }
+                    }
+                }
+            },
+            "graphicOverview": {
+                "MD_BrowseGraphic": {
+                    "fileName": {
+                        "CharacterString": {
+                            "value": "https://sextant.ifremer.fr/geonetwork/srv/api/records/04315e23-027b-4abe-a154-b0c4d17fed7a/attachments/20110405-20110408.png"
+                        }
+                    }
+                }
+            },
+            "descriptiveKeywords": {
+                "MD_Keywords": {
+                    "keyword": {
+                        "CharacterString": {
+                            "value": "T\u00e9l\u00e9d\u00e9tection"
+                        }
+                    },
+                    "type": {
+                        "MD_KeywordTypeCode": {
+                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+                            "codeListValue": "theme",
+                            "value": null
+                        }
+                    },
+                    "thesaurusName": {
+                        "CI_Citation": {
+                            "title": {
+                                "CharacterString": {
+                                    "value": "Th\u00e8matiques ODATIS"
+                                }
+                            },
+                            "date": {
+                                "CI_Date": {
+                                    "date": {
+                                        "Date": {
+                                            "value": "2017-10-02"
+                                        }
+                                    },
+                                    "dateType": {
+                                        "CI_DateTypeCode": {
+                                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+                                            "codeListValue": "publication",
+                                            "value": null
+                                        }
+                                    }
+                                }
+                            },
+                            "identifier": {
+                                "MD_Identifier": {
+                                    "code": {
+                                        "Anchor": {
+                                            "href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=local.theme.odatis_thematiques",
+                                            "value": "geonetwork.thesaurus.local.theme.odatis_thematiques"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "resourceConstraints": {
+                "MD_LegalConstraints": {
+                    "useLimitation": {
+                        "CharacterString": {
+                            "value": "Aucune condition ne s\u2019applique"
+                        }
+                    },
+                    "accessConstraints": {
+                        "MD_RestrictionCode": {
+                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+                            "codeListValue": "otherRestrictions",
+                            "value": null
+                        }
+                    },
+                    "useConstraints": {
+                        "MD_RestrictionCode": {
+                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+                            "codeListValue": "copyright",
+                            "value": null
+                        }
+                    },
+                    "otherConstraints": {
+                        "CharacterString": {
+                            "value": null
+                        }
+                    }
+                }
+            },
+            "spatialRepresentationType": {
+                "MD_SpatialRepresentationTypeCode": {
+                    "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode",
+                    "codeListValue": "grid",
+                    "value": null
+                }
+            },
+            "spatialResolution": {
+                "MD_Resolution": {
+                    "distance": {
+                        "Distance": {
+                            "uom": "km",
+                            "value": null
+                        }
+                    }
+                }
+            },
+            "language": {
+                "LanguageCode": {
+                    "codeList": "http://www.loc.gov/standards/iso639-2/",
+                    "codeListValue": "fre",
+                    "value": null
+                }
+            },
+            "characterSet": {
+                "MD_CharacterSetCode": {
+                    "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode",
+                    "codeListValue": "utf8",
+                    "value": null
+                }
+            },
+            "topicCategory": {
+                "MD_TopicCategoryCode": {
+                    "value": "oceans"
+                }
+            },
+            "extent": {
+                "EX_Extent": {
+                    "geographicElement": {
+                        "EX_GeographicBoundingBox": {
+                            "westBoundLongitude": {
+                                "Decimal": {
+                                    "value": "-180"
+                                }
+                            },
+                            "eastBoundLongitude": {
+                                "Decimal": {
+                                    "value": "180"
+                                }
+                            },
+                            "southBoundLatitude": {
+                                "Decimal": {
+                                    "value": "60"
+                                }
+                            },
+                            "northBoundLatitude": {
+                                "Decimal": {
+                                    "value": "90"
+                                }
+                            }
+                        }
+                    },
+                    "temporalElement": {
+                        "EX_TemporalExtent": {
+                            "extent": {
+                                "TimePeriod": {
+                                    "beginPosition": {
+                                        "value": "2002-10-01"
+                                    },
+                                    "endPosition": {
+                                        "value": "2011-04-30"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "distributionInfo": {
+        "MD_Distribution": {
+            "distributionFormat": {
+                "MD_Format": {
+                    "name": {
+                        "CharacterString": {
+                            "value": null
+                        }
+                    },
+                    "version": {
+                        "CharacterString": {
+                            "value": null
+                        }
+                    }
+                }
+            },
+            "transferOptions": {
+                "MD_DigitalTransferOptions": {
+                    "onLine": {
+                        "CI_OnlineResource": {
+                            "linkage": {
+                                "URL": {
+                                    "value": "ftp://ftp.ifremer.fr/ifremer/cersat/products/gridded/psi-drift/documentation/amsr.pdf"
+                                }
+                            },
+                            "protocol": {
+                                "CharacterString": {
+                                    "value": "WWW:LINK"
+                                }
+                            },
+                            "name": {
+                                "CharacterString": {
+                                    "value": "User Manual"
+                                }
+                            },
+                            "function": {
+                                "CI_OnLineFunctionCode": {
+                                    "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+                                    "codeListValue": "information",
+                                    "value": null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "dataQualityInfo": {
+        "DQ_DataQuality": {
+            "scope": {
+                "DQ_Scope": {
+                    "level": {
+                        "MD_ScopeCode": {
+                            "codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+                            "codeListValue": "dataset",
+                            "value": null
+                        }
+                    }
+                }
+            },
+            "lineage": {
+                "LI_Lineage": {
+                    "statement": {
+                        "CharacterString": {
+                            "value": "This product provides users with a continuous winter (Oct-April) time series of drift vectors over Arctic. These drift vectors are provided on a polar stereographic grid every 31.25 km, over  a 3-days overlapping time period. It is a merging of the sea-ice drift vectors retrieved separately using respectively the H and V AMSR-E polarizations channels (from winter 2002-2003) observations. The estimation of sea-ice drift for each one relies on a basic correlation technique applied to the field of the second spatial derivative (Laplacian) of 6.25km resolution composite maps separated by a few days (brightness temperature)."
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

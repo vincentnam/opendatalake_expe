@@ -1,0 +1,512 @@
+{
+  "audit_author": [
+    {
+      "name": "Swairjo, M.A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Concha, N.O.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Kaetzel, M.A.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Dedman, J.R.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Seaton, B.A.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 157.27,
+    "length_b": 157.27,
+    "length_c": 37.45,
+    "zpdb": 9
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Nat.Struct.Biol.",
+      "journal_id_astm": "NSBIEW",
+      "journal_id_csd": "2024",
+      "journal_id_issn": "1072-8368",
+      "journal_volume": "2",
+      "page_first": "968",
+      "page_last": "974",
+      "pdbx_database_id_doi": "10.1038/nsb1195-968",
+      "pdbx_database_id_pub_med": 7583670,
+      "rcsb_authors": [
+        "Swairjo, M.A.",
+        "Concha, N.O.",
+        "Kaetzel, M.A.",
+        "Dedman, J.R.",
+        "Seaton, B.A."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Struct Biol",
+      "title": "Ca(2+)-bridging mechanism and phospholipid head group recognition in the membrane-binding protein annexin V.",
+      "year": 1995
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 293.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1994-08-10T00:00:00+0000",
+      "type": "RIGAKU"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU RUH3R"
+    }
+  ],
+  "entry": {
+    "id": "1A8A"
+  },
+  "exptl": [
+    {
+      "crystals_number": 2,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 2.5,
+      "density_percent_sol": 50.79,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "p_h": 7.1,
+      "pdbx_details": "PROTEIN CRYSTALLIZED FROM AMMONIUM SULFATE, 20MM CACL2, 50MM HEPES, PH 8.2; SOAKED IN 20% PEG, 20MM CACL2, 80MM GSE, PH 7.1"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1998-06-17T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "recvd_initial_deposition_date": "1998-03-23T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "dcc_r": 0.2,
+    "eds_r": 0.2,
+    "fo_fc_correlation": 0.951,
+    "pdb_r": 0.2,
+    "wilson_baniso": "[21.424,21.424,29.394,0.000,0.000,0.000]",
+    "wilson_bestimate": 23.325,
+    "absolute_percentile_clashscore": 48.3,
+    "absolute_percentile_percent_rsrzoutliers": 52.6,
+    "absolute_percentile_percent_ramachandran_outliers": 40.7,
+    "absolute_percentile_percent_rotamer_outliers": 8.6,
+    "acentric_outliers": 2,
+    "angles_rmsz": 1.66,
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.88,
+    "bulk_solvent_b": 75.743,
+    "bulk_solvent_k": 0.332,
+    "ccp4version": "7.0.044 (Gargrove)",
+    "centric_outliers": 0.0,
+    "clashscore": 5.95,
+    "data_anisotropy": 0.331,
+    "data_completeness": 73.9,
+    "high_resol_relative_percentile_clashscore": 1.9,
+    "high_resol_relative_percentile_percent_rsrzoutliers": 1.9,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 1.9,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 1.9,
+    "ligands_for_buster_report": "yes",
+    "low_resol_relative_percentile_clashscore": 1.9,
+    "low_resol_relative_percentile_percent_rsrzoutliers": 1.9,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 1.9,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 1.9,
+    "num_hreduce": 2514.0,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_rsrzoutliers": 127900,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_clashscore": 6847,
+    "num_pdbids_relative_percentile_percent_rsrzoutliers": 6082,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 6760,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 6760,
+    "num_angles_rmsz": 3413,
+    "num_bonds_rmsz": 2535,
+    "num_free_reflections": 0,
+    "num_miller_indices": 20264,
+    "percent_rsrzoutliers": 2.83,
+    "percent_free_reflections": 0.0,
+    "percent_ramachandran_outliers": 0.32,
+    "percent_rotamer_outliers": 9.33,
+    "percentilebins": [
+      "all",
+      "1.9",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1",
+    "refmac_version": "5.8.0158",
+    "relative_percentile_clashscore": 43.2,
+    "relative_percentile_percent_rsrzoutliers": 55.7,
+    "relative_percentile_percent_ramachandran_outliers": 31.2,
+    "relative_percentile_percent_rotamer_outliers": 3.1,
+    "report_creation_date": "May 23, 2020 -- 08:44 pm BST",
+    "restypes_notchecked_for_bond_angle_geometry": [
+      "CA",
+      "GSE"
+    ],
+    "trans_nsc": "The largest off-origin peak in the Patterson function is 5.81% of the height of the origin peak. No significant pseudotranslation is detected.",
+    "twin_l": 0.488,
+    "twin_l2": 0.315,
+    "twin_fraction": "h,-h-k,-l:0.023",
+    "xtriage_input_columns": "F_meas_au,F_meas_sigma_au",
+    "bfactor_type": "FULL",
+    "dccrefinement_program": "PHENIX",
+    "edsresolution": 1.9,
+    "edsresolution_low": 45.4,
+    "iover_sigma": "1.76(1.89A)",
+    "pdbdeposition_date": "1998-03-23T00:00:00+0000",
+    "pdbresolution": 1.9,
+    "pdbresolution_low": 10.0,
+    "pdbrevision_date": "2011-07-13T00:00:00+0000",
+    "pdbrevision_number": 3.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1998-03-23T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1998-06-17T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2011-07-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "1A8A",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "1A8A",
+    "pubmed_id": 7583670
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2645,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 318,
+    "deposited_nonpolymer_entity_instance_count": 11,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 319,
+    "deposited_solvent_atom_count": 116,
+    "deposited_unmodeled_polymer_monomer_count": 1,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 58,
+    "molecular_weight": 36.34,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA",
+      "GSE"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.26,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 35.68,
+    "polymer_molecular_weight_minimum": 35.68,
+    "polymer_monomer_count_maximum": 319,
+    "polymer_monomer_count_minimum": 319,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "SCALEPACK",
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Nat.Struct.Biol.",
+    "journal_id_astm": "NSBIEW",
+    "journal_id_csd": "2024",
+    "journal_id_issn": "1072-8368",
+    "journal_volume": "2",
+    "page_first": "968",
+    "page_last": "974",
+    "pdbx_database_id_doi": "10.1038/nsb1195-968",
+    "pdbx_database_id_pub_med": 7583670,
+    "rcsb_authors": [
+      "Swairjo, M.A.",
+      "Concha, N.O.",
+      "Kaetzel, M.A.",
+      "Dedman, J.R.",
+      "Seaton, B.A."
+    ],
+    "rcsb_journal_abbrev": "Nat Struct Biol",
+    "title": "Ca(2+)-bridging mechanism and phospholipid head group recognition in the membrane-binding protein annexin V.",
+    "year": 1995
+  },
+  "refine": [
+    {
+      "ls_rfactor_rwork": 0.201,
+      "ls_rfactor_obs": 0.201,
+      "ls_dres_high": 1.9,
+      "ls_dres_low": 10.0,
+      "ls_number_reflns_obs": 20069,
+      "ls_percent_reflns_obs": 74.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_sigma_f": 2.0,
+      "pdbx_method_to_determine_struct": "DIFFERENCE FOURIER",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "biso_mean": 20.7
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 10.0,
+      "number_atoms_solvent": 116,
+      "number_atoms_total": 2648,
+      "pdbx_number_atoms_ligand": 26,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2506,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.018,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 3.4,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "dev_ideal": 20.9,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 44.7,
+      "number_obs": 20264,
+      "observed_criterion_sigma_i": 2.0,
+      "pdbx_rmerge_iobs": 0.124,
+      "pdbx_rsym_value": 0.043,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.1,
+      "percent_possible_obs": 74.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "struct": {
+    "pdbx_descriptor": "ANNEXIN V, L-ALPHA-GLYCEROPHOSPHORYLSERINE",
+    "title": "RAT ANNEXIN V COMPLEXED WITH GLYCEROPHOSPHOSERINE"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "PHOSPHOLIPID ANALOG",
+    "text": "PHOSPHOLIPID ANALOG, CALCIUM BINDING PROTEIN, MEMBRANE BINDING PROTEIN"
+  },
+  "symmetry": {
+    "int_tables_number": 146,
+    "space_group_name_hm": "H 3"
+  },
+  "rcsb_id": "1A8A"
+}

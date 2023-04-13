@@ -1,0 +1,535 @@
+{
+  "audit_author": [
+    {
+      "name": "Rodriguez-Romero, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Almog, O.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Tordova, M.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Randhawa, Z.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 44.46,
+    "length_b": 83.79,
+    "length_c": 132.45,
+    "zpdb": 4
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Biol.Chem.",
+      "journal_id_astm": "JBCHA3",
+      "journal_id_csd": "0071",
+      "journal_id_issn": "0021-9258",
+      "journal_volume": "273",
+      "page_first": "11770",
+      "page_last": "11775",
+      "pdbx_database_id_doi": "10.1074/jbc.273.19.11770",
+      "pdbx_database_id_pub_med": 9565600,
+      "rcsb_authors": [
+        "Rodriguez-Romero, A.",
+        "Almog, O.",
+        "Tordova, M.",
+        "Randhawa, Z.",
+        "Gilliland, G.L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Biol Chem",
+      "title": "Primary and tertiary structures of the Fab fragment of a monoclonal anti-E-selectin 7A9 antibody that inhibits neutrophil attachment to endothelial cells.",
+      "year": 1998
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 293.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "COLLIMATOR",
+      "detector": "AREA DETECTOR",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1995-05-10T00:00:00+0000",
+      "type": "SIEMENS"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "GRAPHITE(002)",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU RUH2R"
+    }
+  ],
+  "entry": {
+    "id": "1A5F"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 2.6,
+      "density_percent_sol": 53.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "p_h": 7.0,
+      "pdbx_details": "pH 7.0"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1999-04-20T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "recvd_initial_deposition_date": "1998-02-16T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "dcc_r": 0.22,
+    "eds_r": 0.23,
+    "fo_fc_correlation": 0.857,
+    "pdb_r": 0.2,
+    "wilson_baniso": "[41.828,15.505,23.222,0.000,0.000,0.000]",
+    "wilson_bestimate": 25.201,
+    "absolute_percentile_clashscore": 2.1,
+    "absolute_percentile_percent_rsrzoutliers": 57.0,
+    "absolute_percentile_percent_ramachandran_outliers": 3.0,
+    "absolute_percentile_percent_rotamer_outliers": 1.8,
+    "acentric_outliers": 2,
+    "angles_rmsz": 0.96,
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.71,
+    "bulk_solvent_b": 100.355,
+    "bulk_solvent_k": 0.317,
+    "ccp4version": "7.0.044 (Gargrove)",
+    "centric_outliers": 0.0,
+    "clashscore": 38.85,
+    "data_anisotropy": 0.98,
+    "data_completeness": 79.03,
+    "high_resol_relative_percentile_clashscore": 2.8,
+    "high_resol_relative_percentile_percent_rsrzoutliers": 2.8,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 2.8,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 2.8,
+    "low_resol_relative_percentile_clashscore": 2.8,
+    "low_resol_relative_percentile_percent_rsrzoutliers": 2.8,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 2.8,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 2.8,
+    "no_ligands_for_buster_report": "yes",
+    "no_ligands_for_mogul": "yes",
+    "num_hreduce": 3129.0,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_rsrzoutliers": 127900,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_clashscore": 3569,
+    "num_pdbids_relative_percentile_percent_rsrzoutliers": 3078,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 3498,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 3500,
+    "num_angles_rmsz": 4532,
+    "num_bonds_rmsz": 3326,
+    "num_free_reflections": 0,
+    "num_miller_indices": 10007,
+    "percent_rsrzoutliers": 2.55,
+    "percent_free_reflections": 0.0,
+    "percent_ramachandran_outliers": 3.76,
+    "percent_rotamer_outliers": 17.12,
+    "percentilebins": [
+      "all",
+      "2.8",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1,2",
+    "refmac_version": "5.8.0158",
+    "relative_percentile_clashscore": 6.2,
+    "relative_percentile_percent_rsrzoutliers": 47.0,
+    "relative_percentile_percent_ramachandran_outliers": 10.3,
+    "relative_percentile_percent_rotamer_outliers": 6.0,
+    "report_creation_date": "May 16, 2020 -- 11:27 pm BST",
+    "trans_nsc": "The largest off-origin peak in the Patterson function is 5.64% of the height of the origin peak. No significant pseudotranslation is detected.",
+    "twin_l": 0.468,
+    "twin_l2": 0.299,
+    "xtriage_input_columns": "F_meas_au,F_meas_sigma_au",
+    "bfactor_type": "FULL",
+    "dccrefinement_program": "CNS",
+    "edsresolution": 2.81,
+    "edsresolution_low": 35.41,
+    "iover_sigma": "2.83(2.81A)",
+    "pdbdeposition_date": "1998-02-16T00:00:00+0000",
+    "pdbresolution": 2.8,
+    "pdbresolution_low": 7.0,
+    "pdbrevision_date": "2011-07-13T00:00:00+0000",
+    "pdbrevision_number": 3.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1998-02-16T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1999-04-20T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2011-07-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "1A5F",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2"
+    ],
+    "rcsb_id": "1A5F",
+    "pubmed_id": 9565600
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 5,
+    "deposited_atom_count": 3264,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 432,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 2,
+    "deposited_polymer_monomer_count": 437,
+    "deposited_solvent_atom_count": 10,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 4,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 47.37,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 2,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 2,
+    "polymer_entity_taxonomy_count": 2,
+    "polymer_molecular_weight_maximum": 24.29,
+    "polymer_molecular_weight_minimum": 23.08,
+    "polymer_monomer_count_maximum": 220,
+    "polymer_monomer_count_minimum": 217,
+    "resolution_combined": [
+      2.8
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "SCALEK",
+      "X-PLOR",
+      "XENGEN"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.8
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Biol.Chem.",
+    "journal_id_astm": "JBCHA3",
+    "journal_id_csd": "0071",
+    "journal_id_issn": "0021-9258",
+    "journal_volume": "273",
+    "page_first": "11770",
+    "page_last": "11775",
+    "pdbx_database_id_doi": "10.1074/jbc.273.19.11770",
+    "pdbx_database_id_pub_med": 9565600,
+    "rcsb_authors": [
+      "Rodriguez-Romero, A.",
+      "Almog, O.",
+      "Tordova, M.",
+      "Randhawa, Z.",
+      "Gilliland, G.L."
+    ],
+    "rcsb_journal_abbrev": "J Biol Chem",
+    "title": "Primary and tertiary structures of the Fab fragment of a monoclonal anti-E-selectin 7A9 antibody that inhibits neutrophil attachment to endothelial cells.",
+    "year": 1998
+  },
+  "refine": [
+    {
+      "ls_rfactor_rwork": 0.195,
+      "ls_rfactor_obs": 0.195,
+      "ls_dres_high": 2.8,
+      "ls_dres_low": 7.0,
+      "ls_number_reflns_obs": 8184,
+      "ls_percent_reflns_obs": 86.6,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_isotropic_thermal_model": "GROUP",
+      "pdbx_ls_sigma_f": 2.0,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_starting_model": "PDB ENTRY 1BBD",
+      "biso_mean": 14.6
+    }
+  ],
+  "refine_analyze": [
+    {
+      "luzzati_coordinate_error_obs": 0.28,
+      "luzzati_dres_low_obs": 5.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.8,
+      "d_res_low": 7.0,
+      "number_atoms_solvent": 10,
+      "number_atoms_total": 3264,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 3254,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.015,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 2.1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "dev_ideal": 28.2,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.95,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 2.8,
+      "number_obs": 10993,
+      "observed_criterion_sigma_i": 1.0,
+      "pdbx_rmerge_iobs": 0.068,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_i": 4.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.1,
+      "percent_possible_obs": 86.5
+    }
+  ],
+  "software": [
+    {
+      "classification": "data collection",
+      "name": "XENGEN",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "SCALEK",
+      "pdbx_ordinal": 2,
+      "version": "(XENGEN)"
+    },
+    {
+      "classification": "model building",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 3,
+      "version": "3.1"
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 4,
+      "version": "3.1"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XENGEN",
+      "pdbx_ordinal": 5
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEK",
+      "pdbx_ordinal": 6,
+      "version": "(XENGEN)"
+    },
+    {
+      "classification": "phasing",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 7,
+      "version": "3.1"
+    }
+  ],
+  "struct": {
+    "pdbx_descriptor": "MONOCLONAL ANTI-E-SELECTIN 7A9 ANTIBODY",
+    "title": "FAB FRAGMENT OF A MONOCLONAL ANTI-E-SELECTIN ANTIBODY"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "IMMUNOGLOBULIN",
+    "text": "IMMUNOGLOBULIN, FAB, ANTIBODY, ANTI-E-SELECTIN"
+  },
+  "symmetry": {
+    "int_tables_number": 19,
+    "space_group_name_hm": "P 21 21 21"
+  },
+  "rcsb_id": "1A5F"
+}

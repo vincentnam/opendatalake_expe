@@ -1,0 +1,627 @@
+{
+  "audit_author": [
+    {
+      "name": "Martin, J.L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Guddat, L.W.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 103.08,
+    "angle_gamma": 90.0,
+    "length_a": 38.52,
+    "length_b": 51.38,
+    "length_c": 42.5,
+    "zpdb": 2
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Structure",
+      "journal_id_astm": "STRUE6",
+      "journal_id_csd": "2005",
+      "journal_id_issn": "0969-2126",
+      "journal_volume": "6",
+      "page_first": "757",
+      "page_last": "767",
+      "pdbx_database_id_doi": "10.1016/S0969-2126(98)00077-X",
+      "pdbx_database_id_pub_med": 9655827,
+      "rcsb_authors": [
+        "Guddat, L.W.",
+        "Bardwell, J.C.",
+        "Martin, J.L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Structure",
+      "title": "Crystal structures of reduced and oxidized DsbA: investigation of domain motion and thiolate stabilization.",
+      "year": 1998
+    },
+    {
+      "country": "US",
+      "id": "1",
+      "journal_abbrev": "Protein Sci.",
+      "journal_id_astm": "PRCIEI",
+      "journal_id_csd": "0795",
+      "journal_id_issn": "0961-8368",
+      "journal_volume": "6",
+      "page_first": "1148",
+      "rcsb_authors": [
+        "Guddat, L.W.",
+        "Bardwell, J.C.",
+        "Zander, T.",
+        "Martin, J.L."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Protein Sci",
+      "title": "The Uncharged Surface Features Surrounding the Active Site of Escherichia Coli Dsba are Conserved and are Implicated in Peptide Binding",
+      "year": 1997
+    },
+    {
+      "country": "US",
+      "id": "2",
+      "journal_abbrev": "Protein Sci.",
+      "journal_id_astm": "PRCIEI",
+      "journal_id_csd": "0795",
+      "journal_id_issn": "0961-8368",
+      "journal_volume": "6",
+      "page_first": "1893",
+      "rcsb_authors": [
+        "Guddat, L.W.",
+        "Bardwell, J.C.",
+        "Glockshuber, R.",
+        "Huber-Wunderlich, M.",
+        "Zander, T.",
+        "Martin, J.L."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Protein Sci",
+      "title": "Structural Analysis of Three His32 Mutants of Dsba: Support for an Electrostatic Role of His32 in Dsba Stability",
+      "year": 1997
+    },
+    {
+      "country": "UK",
+      "id": "3",
+      "journal_abbrev": "Nature",
+      "journal_id_astm": "NATUAS",
+      "journal_id_csd": "0006",
+      "journal_id_issn": "0028-0836",
+      "journal_volume": "365",
+      "page_first": "464",
+      "rcsb_authors": [
+        "Martin, J.L.",
+        "Bardwell, J.C.",
+        "Kuriyan, J."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Nature",
+      "title": "Crystal Structure of the Dsba Protein Required for Disulphide Bond Formation in Vivo",
+      "year": 1993
+    },
+    {
+      "country": "UK",
+      "id": "4",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_astm": "JMOBAK",
+      "journal_id_csd": "0070",
+      "journal_id_issn": "0022-2836",
+      "journal_volume": "230",
+      "page_first": "1097",
+      "rcsb_authors": [
+        "Martin, J.L.",
+        "Waksman, G.",
+        "Bardwell, J.C.",
+        "Beckwith, J.",
+        "Kuriyan, J."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Crystallization of Dsba, an Escherichia Coli Protein Required for Disulphide Bond Formation in Vivo",
+      "year": 1993
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 289.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "YALE MIRRORS",
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1995-10-10T00:00:00+0000",
+      "type": "RIGAKU"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "GRAPHITE(002)",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU RUH2R"
+    }
+  ],
+  "entry": {
+    "id": "1A2J"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 1.94,
+      "density_percent_sol": 37.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "p_h": 5.0,
+      "pdbx_details": "27% PEG 4K IN 0.1M ACETATE BUFFER PH 5.0"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1998-09-16T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "process_site": "BNL",
+    "recvd_initial_deposition_date": "1998-01-06T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "babinet_b": 90.833,
+    "babinet_k": 0.136,
+    "dcc_r": 0.18,
+    "eds_r": 0.18,
+    "fo_fc_correlation": 0.958,
+    "pdb_r": 0.18,
+    "wilson_baniso": "[15.389,21.708,26.162,0.000,1.802,0.000]",
+    "wilson_bestimate": 20.743,
+    "absolute_percentile_dccrfree": 68.2,
+    "absolute_percentile_clashscore": 82.3,
+    "absolute_percentile_percent_rsrzoutliers": 90.6,
+    "absolute_percentile_percent_ramachandran_outliers": 100.0,
+    "absolute_percentile_percent_rotamer_outliers": 31.1,
+    "acentric_outliers": 0,
+    "angles_rmsz": 0.48,
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": 0.31,
+    "bulk_solvent_b": 54.84,
+    "bulk_solvent_k": 0.293,
+    "ccp4version": "7.0.044 (Gargrove)",
+    "centric_outliers": 0.0,
+    "clashscore": 2.46,
+    "data_anisotropy": 0.511,
+    "data_completeness": 97.29,
+    "high_resol_relative_percentile_dccrfree": 2.0,
+    "high_resol_relative_percentile_clashscore": 2.0,
+    "high_resol_relative_percentile_percent_rsrzoutliers": 2.0,
+    "high_resol_relative_percentile_percent_ramachandran_outliers": 2.0,
+    "high_resol_relative_percentile_percent_rotamer_outliers": 2.0,
+    "low_resol_relative_percentile_dccrfree": 2.0,
+    "low_resol_relative_percentile_clashscore": 2.0,
+    "low_resol_relative_percentile_percent_rsrzoutliers": 2.0,
+    "low_resol_relative_percentile_percent_ramachandran_outliers": 2.0,
+    "low_resol_relative_percentile_percent_rotamer_outliers": 2.0,
+    "no_ligands_for_buster_report": "yes",
+    "no_ligands_for_mogul": "yes",
+    "num_hreduce": 1389.0,
+    "num_pdbids_absolute_percentile_dccrfree": 130704,
+    "num_pdbids_absolute_percentile_clashscore": 141614,
+    "num_pdbids_absolute_percentile_percent_rsrzoutliers": 127900,
+    "num_pdbids_absolute_percentile_percent_ramachandran_outliers": 138981,
+    "num_pdbids_absolute_percentile_percent_rotamer_outliers": 138945,
+    "num_pdbids_relative_percentile_dccrfree": 8085,
+    "num_pdbids_relative_percentile_clashscore": 9178,
+    "num_pdbids_relative_percentile_percent_rsrzoutliers": 7900,
+    "num_pdbids_relative_percentile_percent_ramachandran_outliers": 9054,
+    "num_pdbids_relative_percentile_percent_rotamer_outliers": 9053,
+    "num_angles_rmsz": 2038,
+    "num_bonds_rmsz": 1501,
+    "num_free_reflections": 1110,
+    "num_miller_indices": 10752,
+    "percent_rsrzoutliers": 0.53,
+    "percent_free_reflections": 10.32,
+    "percent_ramachandran_outliers": 0.0,
+    "percent_rotamer_outliers": 4.03,
+    "percentilebins": [
+      "all",
+      "2.0",
+      "xray"
+    ],
+    "protein_dnarnaentities": "1",
+    "refmac_version": "5.8.0158",
+    "relative_percentile_dccrfree": 75.3,
+    "relative_percentile_clashscore": 83.7,
+    "relative_percentile_percent_rsrzoutliers": 90.3,
+    "relative_percentile_percent_ramachandran_outliers": 100.0,
+    "relative_percentile_percent_rotamer_outliers": 28.5,
+    "report_creation_date": "May 13, 2020 -- 03:27 am BST",
+    "trans_nsc": "The largest off-origin peak in the Patterson function is 13.99% of the height of the origin peak. No significant pseudotranslation is detected.",
+    "twin_l": 0.484,
+    "twin_l2": 0.315,
+    "xtriage_input_columns": "F_meas_au,F_meas_sigma_au",
+    "bfactor_type": "FULL",
+    "dccrfree": 0.22,
+    "dccrefinement_program": "CNS",
+    "edsresolution": 2.0,
+    "edsresolution_low": 41.4,
+    "iover_sigma": "1.15(2.00A)",
+    "pdbrfree": 0.23,
+    "pdbdeposition_date": "1998-01-06T00:00:00+0000",
+    "pdbresolution": 2.0,
+    "pdbresolution_low": 50.0,
+    "pdbrevision_date": "2011-07-13T00:00:00+0000",
+    "pdbrevision_number": 3.0
+  },
+  "rcsb_accession_info": {
+    "deposit_date": "1998-01-06T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1998-09-16T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2011-07-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "1A2J",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "1A2J",
+    "pubmed_id": 9655827
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1543,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 188,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 189,
+    "deposited_solvent_atom_count": 90,
+    "deposited_unmodeled_polymer_monomer_count": 1,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 1,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 21.16,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.16,
+    "polymer_molecular_weight_minimum": 21.16,
+    "polymer_monomer_count_maximum": 189,
+    "polymer_monomer_count_minimum": 189,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DENZO",
+      "SCALEPACK",
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.0
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Structure",
+    "journal_id_astm": "STRUE6",
+    "journal_id_csd": "2005",
+    "journal_id_issn": "0969-2126",
+    "journal_volume": "6",
+    "page_first": "757",
+    "page_last": "767",
+    "pdbx_database_id_doi": "10.1016/S0969-2126(98)00077-X",
+    "pdbx_database_id_pub_med": 9655827,
+    "rcsb_authors": [
+      "Guddat, L.W.",
+      "Bardwell, J.C.",
+      "Martin, J.L."
+    ],
+    "rcsb_journal_abbrev": "Structure",
+    "title": "Crystal structures of reduced and oxidized DsbA: investigation of domain motion and thiolate stabilization.",
+    "year": 1998
+  },
+  "refine": [
+    {
+      "details": "EIGHT RESIDUES GLU 4, GLU 13, LYS 48, LYS 98, GLU 120,\nLYS 132, GLN 146, AND LYS 183 WERE MODELLED AS ALANINE\nBECAUSE OF POORLY DEFINED SIDE CHAIN DENSITY.  RESIDUES\nGLU 85, SER 106, SER 133, AND SER 186 WERE MODELLED WITH\nTWO ALTERNATE CONFORMATIONS, EACH OF HALF OCCUPANCY.  THE\nSIDE CHAINS OF GLU 13, GLU 85, SER 106, SER 133, AND\nSER 186 WERE MODELLED WITH TWO ALTERNATE CONFORMATIONS,\nEACH OF HALF OCCUPANCY.",
+      "ls_rfactor_rfree": 0.227,
+      "ls_rfactor_rwork": 0.182,
+      "ls_rfactor_obs": 0.182,
+      "ls_dres_high": 2.0,
+      "ls_dres_low": 50.0,
+      "ls_number_reflns_rfree": 1069,
+      "ls_number_reflns_obs": 10332,
+      "ls_percent_reflns_rfree": 10.0,
+      "ls_percent_reflns_obs": 93.3,
+      "pdbx_data_cutoff_high_abs_f": 10000000.0,
+      "pdbx_data_cutoff_low_abs_f": 0.001,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_sigma_f": 1.0,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_starting_model": "PDB ENTRY 1FVK",
+      "biso_mean": 23.6
+    }
+  ],
+  "refine_analyze": [
+    {
+      "luzzati_coordinate_error_free": 0.3,
+      "luzzati_coordinate_error_obs": 0.25,
+      "luzzati_dres_low_obs": 50.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.0,
+      "d_res_low": 50.0,
+      "number_atoms_solvent": 90,
+      "number_atoms_total": 1536,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1446,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.005,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "dev_ideal": 22.4,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "dev_ideal": 0.96,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "dev_ideal_target": 1.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "dev_ideal_target": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "dev_ideal_target": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "dev_ideal_target": 2.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 2.0,
+      "d_resolution_low": 50.0,
+      "number_obs": 38303,
+      "observed_criterion_sigma_i": 0.0,
+      "pdbx_rmerge_iobs": 0.046,
+      "pdbx_rsym_value": 0.046,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_i": 16.0,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.8,
+      "percent_possible_obs": 94.2,
+      "biso_wilson_estimate": 18.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "rmerge_iobs": 0.153,
+      "d_res_high": 2.0,
+      "d_res_low": 2.07,
+      "mean_iover_sig_iobs": 7.4,
+      "pdbx_rsym_value": 0.153,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.4,
+      "percent_possible_all": 81.6
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "DENZO",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "model building",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 3,
+      "version": "3.1"
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 4,
+      "version": "3.1"
+    },
+    {
+      "classification": "phasing",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 5,
+      "version": "3.1"
+    }
+  ],
+  "struct": {
+    "pdbx_descriptor": "DISULFIDE BOND FORMATION PROTEIN",
+    "title": "OXIDIZED DSBA CRYSTAL FORM II"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "OXIDOREDUCTASE, PROTEIN DISULFIDE ISOMERASE, PROTEIN FOLDING, REDOX PROTEIN, REDOX-ACTIVE CENTER"
+  },
+  "symmetry": {
+    "int_tables_number": 4,
+    "space_group_name_hm": "P 1 21 1"
+  },
+  "rcsb_id": "1A2J"
+}

@@ -1,0 +1,472 @@
+{
+  "resourceTitle": {
+    "en": " EUREC4A BCO surface radiation data (v1.0.0)",
+    "fr": "Copie de Votre nouvelle fiche dupliquée"
+  },
+  "alternateResourceTitle": null,
+  "resourceAbstract": {
+    "en": "Ground-based broadband radiation measurements at the Barbados Cloud Observatory during EUREC4A",
+    "fr": ""
+  },
+  "id": "f1f41fdc-ac5e-4ebe-b0df-731daa295840",
+  "lastModification": null,
+  "aerisDataCenter": null,
+  "dataCenter": "",
+  "temporalExtents": [
+    {
+      "beginDate": "2020-01-11",
+      "endDate": "2020-02-29",
+      "comment": {
+        "en": "",
+        "fr": ""
+      }
+    }
+  ],
+  "spatialExtents": [
+    {
+      "area": {
+        "type": "POINT_AREA",
+        "latitude": 13.1627,
+        "longitude": -59.4289,
+        "altitude": null
+      },
+      "name": "BCO",
+      "description": "Barbados Cloud Observatory ",
+      "additionalData": null,
+      "comment": "",
+      "projection": "EPSG 4326",
+      "spatialRepresentation": null,
+      "orbit": null
+    }
+  ],
+  "publications": [
+    {
+      "title": "The Barbados Cloud Observatory: Anchoring Investigations of Clouds and Circulation on the Edge of the ITCZ",
+      "description": "Abstract\n Clouds over the ocean, particularly throughout the tropics, are poorly understood and drive much of the uncertainty in model-based projections of climate change. In early 2010, the Max Planck Institute for Meteorology and the Caribbean Institute for Meteorology and Hydrology established the Barbados Cloud Observatory (BCO) on the windward edge of Barbados. At 13°N the BCO samples the seasonal migration of the intertropical convergence zone (ITCZ), from the well-developed winter trades dominated by shallow cumulus to the transition to deep convection as the ITCZ migrates northward during boreal summer. The BCO is also well situated to observe the remote meteorological impact of Saharan dust and biomass burning. In its first six years of operation, and through complementary intensive observing periods using the German High Altitude and Long Range Research Aircraft (HALO), the BCO has become a cornerstone of efforts to understand the relationship between cloudiness, circulation, and climate change.",
+      "authors": [
+        "Stevens, Bjorn",
+        "Farrell, David",
+        "Hirsch, Lutz",
+        "Jansen, Friedhelm",
+        "Nuijens, Louise",
+        "Serikov, Ilya",
+        "Brügmann, Björn",
+        "Forde, Marvin",
+        "Linne, Holger",
+        "Lonitz, Katrin",
+        "Prospero, Joseph M."
+      ],
+      "journalName": "American Meteorological Society",
+      "journalSection": "787-801",
+      "publicationYear": 2015,
+      "doi": "10.1175/BAMS-D-14-00247.1",
+      "authoritativePublication": false
+    }
+  ],
+  "links": [
+    {
+      "type": "INFORMATION_LINK",
+      "url": "http://eurec4a.eu/",
+      "name": "",
+      "description": {
+        "en": "EUREC4A website",
+        "fr": ""
+      }
+    },
+    {
+      "type": "HTTP_DOWNLOAD_LINK",
+      "url": "https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/DownwellingRadiation/v1.0.0/",
+      "name": "",
+      "description": {
+        "en": "HTTP access to data",
+        "fr": ""
+      }
+    }
+  ],
+  "identifiers": [
+    {
+      "code": "10.25326/230",
+      "codeSpace": "http://dx.doi.org/"
+    }
+  ],
+  "status": "Public",
+  "visibility": null,
+  "distributionInformation": {
+    "embargoStartDate": "",
+    "embargoDuration": 0,
+    "registrationNeeded": false,
+    "authenticationNeeded": false,
+    "dataPolicyDescription": {
+      "en": "EUREC4A intends to follow the open data policy established for NARVAL. This means that we do not intend to police the use of, or access to, the data. Instead we rely on the good will and scientific integrity of those interested in using the data to respect the efforts of those whose were responsible for its collection by adhering to the two guidelines below:\n\nNo redistribution: Groups who are using the data are asked not to redistribute this data, but rather refer those interested in accessing the data to the original source, and these guidelines for the data use.\n\nCoordinated Use and Acknowledgement: Unlike in some other contexts the EUREC4A data is made available through the individual efforts and particular funding of a number of independent research groups. Often the data that is collected represents the fruits of many years of effort to develop, certify and operate an instrument. This effort is often connected to individual research projects, and even PhD projects. For this reason we consider it a matter of scientific integrity for users to respect the priority of those who collected the data, by coordinating your planned use with the instrument PIs (listed below), and making an effort to explicitly and clearly acknowledge the origin of the data when it is presented to a broader community in the form of publications or presentations.\n\nFor publications that include EUREC4A data, include the following in your acknowledgements: The data used in this publication was gathered in the EUREC4A field campaign and is made available through [insert name of the institute]. EUREC4A is funded with support of the European Research Council (ERC), the Max Planck Society (MPG), the German Research Foundation (DFG), the German Meteorological Weather Service (DWD) and the German Aerospace Center (DLR).\n\nIn addition specific data may be bound by agreements associated with the platforms from which they were collected, for instance the data policies of the German Research Vessels, or HALO.\n\n\n",
+      "fr": ""
+    },
+    "dataPolicyUrl": "",
+    "licenceName": "",
+    "licenceVersion": "",
+    "licenceUrl": "",
+    "description": {
+      "en": "EUREC4A intends to follow the open data policy established for NARVAL. This means that we do not intend to police the use of, or access to, the data. Instead we rely on the good will and scientific integrity of those interested in using the data to respect the efforts of those whose were responsible for its collection by adhering to the two guidelines below:\n\nNo redistribution: Groups who are using the data are asked not to redistribute this data, but rather refer those interested in accessing the data to the original source, and these guidelines for the data use.\n\nCoordinated Use and Acknowledgement: Unlike in some other contexts the EUREC4A data is made available through the individual efforts and particular funding of a number of independent research groups. Often the data that is collected represents the fruits of many years of effort to develop, certify and operate an instrument. This effort is often connected to individual research projects, and even PhD projects. For this reason we consider it a matter of scientific integrity for users to respect the priority of those who collected the data, by coordinating your planned use with the instrument PIs (listed below), and making an effort to explicitly and clearly acknowledge the origin of the data when it is presented to a broader community in the form of publications or presentations.\n\nFor publications that include EUREC4A data, include the following in your acknowledgements: The data used in this publication was gathered in the EUREC4A field campaign and is made available through [insert name of the institute]. EUREC4A is funded with support of the European Research Council (ERC), the Max Planck Society (MPG), the German Research Foundation (DFG), the German Meteorological Weather Service (DWD) and the German Aerospace Center (DLR).\n\nIn addition specific data may be bound by agreements associated with the platforms from which they were collected, for instance the data policies of the German Research Vessels, or HALO.\n\n\n",
+      "fr": ""
+    }
+  },
+  "acknowledgement": null,
+  "language": "en",
+  "contacts": [
+    {
+      "firstName": "Friedhelm",
+      "lastName": "Jansen",
+      "name": "",
+      "nameType": "Personal",
+      "email": "friedhelm.jansen@mpimet.mpg.de",
+      "organisation": "",
+      "organisations": [],
+      "comment": {
+        "en": "",
+        "fr": ""
+      },
+      "address": {
+        "street": "",
+        "city": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "roles": [
+        "author",
+        "contributor",
+        "pointofcontact",
+        "metadatapointofcontact",
+        "principalinvestigator"
+      ],
+      "orcId": "",
+      "ror": "",
+      "webSiteUrl": "",
+      "temporalExtents": [
+        {
+          "beginDate": "",
+          "endDate": "",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "firstName": "Hauke",
+      "lastName": "Schulz",
+      "name": "",
+      "nameType": "Personal",
+      "email": "hauke.schulz@mpimet.mpg.de",
+      "organisation": "",
+      "organisations": [],
+      "comment": {
+        "en": "",
+        "fr": ""
+      },
+      "address": {
+        "street": "",
+        "city": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "roles": [
+        "contributor"
+      ],
+      "orcId": "",
+      "ror": "",
+      "webSiteUrl": "",
+      "temporalExtents": [
+        {
+          "beginDate": "",
+          "endDate": "",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "firstName": "Katharina",
+      "lastName": "Stolla",
+      "name": "",
+      "nameType": "Personal",
+      "email": "katharina.stolla@mpimet.mpg.de",
+      "organisation": "",
+      "organisations": [],
+      "comment": {
+        "en": "",
+        "fr": ""
+      },
+      "address": {
+        "street": "",
+        "city": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "roles": [
+        "contributor"
+      ],
+      "orcId": "",
+      "ror": "",
+      "webSiteUrl": "",
+      "temporalExtents": [
+        {
+          "beginDate": "",
+          "endDate": "",
+          "comment": null
+        }
+      ]
+    }
+  ],
+  "quicklooks": [],
+  "keywords": null,
+  "modifications": null,
+  "genealogy": null,
+  "editInformations": {
+    "histories": [
+      {
+        "name": "Douet Vincent",
+        "date": "2021-03-05T10:21:26.159",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "platformSet"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-03-05T10:19:32.069",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "publications"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-03-05T10:08:36.316",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "platformSet"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-03-05T10:04:39.591",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "distributionInformation"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-03-05T10:04:00.754",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "formats",
+          "links"
+        ]
+      },
+      {
+        "name": "ANDRE Francois",
+        "date": "2021-03-09T17:14:41.176",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "identifiers"
+        ]
+      },
+      {
+        "name": "Boulanger Damien",
+        "date": "2021-03-09T13:50:21.656",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "datasetSpecification"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-05-21T15:55:20.527",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "resourceAbstract"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-05-21T15:18:58.738",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "spatialExtents",
+          "formats",
+          "identifiers",
+          "temporalExtents",
+          "links"
+        ]
+      },
+      {
+        "name": "Boulanger Damien",
+        "date": "2021-05-25T09:24:47.997",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "identifiers"
+        ]
+      },
+      {
+        "name": "Boulanger Damien",
+        "date": "2021-05-25T09:24:09.306",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "datasetSpecification"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-06-01T17:38:24.967",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "datasetSpecification"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-06-01T17:37:07.520",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "formats",
+          "datasetSpecification",
+          "identifiers",
+          "links"
+        ]
+      },
+      {
+        "name": "Douet Vincent",
+        "date": "2021-06-01T17:35:00.222",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "datasetSpecification",
+          "temporalExtents",
+          "contacts"
+        ]
+      },
+      {
+        "name": "Boulanger Damien",
+        "date": "2021-06-02T15:32:51.404",
+        "origin": "eurec4a-vjs",
+        "editFields": [
+          "identifiers"
+        ]
+      }
+    ]
+  },
+  "datasetChangelogs": null,
+  "projectSet": [
+    {
+      "thesaurusCode": "CAMPAIGNS.EUREC4A",
+      "label": "Campaigns.EUREC4A",
+      "shortName": "EUREC4A"
+    }
+  ],
+  "harvestingInfo": null,
+  "resourceType": "Dataset",
+  "formats": [
+    {
+      "name": "netCDF",
+      "version": "4",
+      "description": {
+        "en": "",
+        "fr": ""
+      },
+      "readingInformation": {
+        "en": "",
+        "fr": ""
+      },
+      "temporalInterval": {
+        "beginDate": "",
+        "endDate": "now",
+        "comment": {
+          "en": "",
+          "fr": ""
+        }
+      }
+    }
+  ],
+  "dataLevel": null,
+  "processLevel": null,
+  "site": null,
+  "sites": [
+    {
+      "shortName": "BCO",
+      "longName": "Barbados Cloud Observatory ",
+      "description": {
+        "en": "",
+        "fr": ""
+      },
+      "latitude": null,
+      "longitude": null,
+      "altitude": null
+    }
+  ],
+  "programName": "",
+  "collectionName": "",
+  "clientTemplateName": "",
+  "interoperabilityInformation": {
+    "filterDescription": null
+  },
+  "plateforms": null,
+  "parameters": null,
+  "instruments": null,
+  "platforms": null,
+  "platformSet": [
+    {
+      "thesaurusCode": "https://vocab.aeris-data.fr/platform/ce268d92-9fe9-bc92-fc04-729f312712bb",
+      "name": "",
+      "description": {
+        "en": "",
+        "fr": ""
+      },
+      "label": "In Situ Land-based Platforms.Fixed Observation Stations.null"
+    }
+  ],
+  "instrumentSet": [
+    {
+      "thesaurusCode": "https://vocab.aeris-data.fr/instrument/0bc64293-351d-a677-309f-f234e80c609c",
+      "description": {
+        "en": "Broadband radiation",
+        "fr": null
+      },
+      "name": "",
+      "manufacturer": "Kipp&Zonen",
+      "model": "CMP21, CMP21 shaded, CGR4 shaded, CHP1",
+      "serialNumber": "",
+      "calibration": "",
+      "resolution": null,
+      "temporalExtents": null,
+      "label": "Thermal/Radiation Detectors.null.null"
+    }
+  ],
+  "parameterSet": [
+    {
+      "thesaurusCode": "https://vocab.aeris-data.fr/parameter/e9273d7e-1741-b865-d98d-f45416f62c48",
+      "shortName": "",
+      "longName": "shortwave downwelling global, shortwave downwelling diffuse, shortwave downwelling direct, shortwave direct, longwave downwelling",
+      "uom": "",
+      "comment": {
+        "en": "",
+        "fr": null
+      },
+      "type": "",
+      "cfStandardName": "",
+      "label": "Atmospheric radiation.Shortwave radiation.null.null"
+    }
+  ],
+  "projects": null,
+  "datasetSpecification": {
+    "datasetVersions": [],
+    "datasetLanguage": null,
+    "datasetCreationDate": "",
+    "datasetRevisionDate": "",
+    "datasetPublicationDate": "2021-06-01"
+  },
+  "documentRating": 0,
+  "metadataLevel": "Collection",
+  "note": 10,
+  "type": "COLLECTION",
+  "identifier": "f1f41fdc-ac5e-4ebe-b0df-731daa295840",
+  "technicalInformation": {
+    "catalogueName": "aeris",
+    "catalogueMode": "prod"
+  }
+}
